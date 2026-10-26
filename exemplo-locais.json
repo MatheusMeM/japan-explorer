@@ -1,0 +1,9 @@
+[
+  {"nome": "Senso-ji", "cidade": "Tóquio", "bairro": "Asakusa", "categoria": "templo",
+   "lat": 35.7148, "lng": 139.7967, "nota": "Exemplo: chegar cedo", "fonte_url": "https://www.instagram.com/p/EXEMPLO/"},
+  {"nome": "Itsukushima Shrine", "cidade": "Miyajima", "categoria": "templo",
+   "maps_url": "https://www.google.com/maps/place/Itsukushima+Shrine/@34.2959,132.3197,17z/data=!4m6!3m5!1s0x0:0x0!8m2!3d34.2960!4d132.3199",
+   "nota": "Exemplo: coordenada tirada do link do Maps"},
+  {"nome": "Fushimi Inari Taisha", "cidade": "Quioto", "categoria": "templo",
+   "lat": 34.9671, "lng": 135.7727, "nota": "Exemplo com data", "data": "2026-11-08"}
+]

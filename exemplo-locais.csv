@@ -1,0 +1,8 @@
+nome,cidade,bairro,categoria,lat,lng,maps_url,nota,fonte_url,data
+Senso-ji,Tóquio,Asakusa,templo,35.7148,139.7967,,"Exemplo: chegar cedo, antes das 8h",,
+Fushimi Inari Taisha,Quioto,Fushimi,templo,34.9671,135.7727,,Exemplo com data: festival Hitaki-sai às 13h,,2026-11-08
+Castelo de Matsumoto,Matsumoto,,museu,36.2386,137.9689,,Exemplo,,
+Kenroku-en,Kanazawa,,natureza,36.5621,136.6625,,Exemplo,,
+Itsukushima Shrine,Miyajima,,templo,,,"https://www.google.com/maps/place/Itsukushima+Shrine/@34.2959,132.3197,17z/data=!4m6!3m5!1s0x0:0x0!8m2!3d34.2960!4d132.3199",Exemplo: coordenada tirada do link do Maps,,
+Kuromon Market,Osaka,Nipponbashi,comida,34.6654,135.5065,,"Exemplo: ostra, wagyu no espeto",https://www.instagram.com/p/EXEMPLO/,
+Local só com link curto,Tóquio,,outro,,,https://maps.app.goo.gl/EXEMPLO,Exemplo: fica sem pin no mapa,,

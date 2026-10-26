@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131315" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Japão">
+<meta name="robots" content="noindex, nofollow">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<title>Japão 2026</title>
+<style>
+:root { --bg:#f7f5f0; --card:#fff; --ink:#1d1d1f; --mute:#6b6b70; --line:#e4e0d8; --red:#bc002d; --chip:#efeae1; --nav:62px; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg:#131315; --card:#1e1e21; --ink:#f2f2f2; --mute:#a0a0a8; --line:#323237; --red:#ff5470; --chip:#2a2a2e; } }
+* { box-sizing: border-box; } [hidden] { display: none !important; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; -webkit-text-size-adjust: 100%; }
+header { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: calc(env(safe-area-inset-top) + 10px) 16px 8px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 10px; }
+header h1 { margin: 0; font-size: 18px; } header h1::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--red); margin-right: 8px; }
+#sub { color: var(--mute); font-size: 14px; }
+main { padding: 12px 16px calc(var(--nav) + env(safe-area-inset-bottom) + 16px); max-width: 720px; margin: 0 auto; }
+h2 { margin: 2px 0 6px; font-size: 21px; } h3 { margin: 16px 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--mute); }
+ul { margin: 0; padding-left: 20px; } li { margin: 3px 0; }
+a { color: var(--red); }
+.mute { color: var(--mute); } .aviso { background: var(--chip); padding: 8px 12px; border-radius: 10px; }
+.dia { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin-bottom: 12px; }
+.dia-top { color: var(--red); font-size: 14px; }
+.tag { display: inline-block; font-size: 12px; background: var(--chip); color: var(--mute); border-radius: 6px; padding: 0 5px; margin: 0 2px; }
+.badge { font-size: 11px; padding: 1px 6px; border-radius: 6px; background: var(--chip); text-transform: none; letter-spacing: 0; }
+.badge.pago { background: #1e8e4e; color: #fff; } .badge.aberto { background: #e69500; color: #fff; } .badge.validar { background: #e6c200; color: #222; }
+.pend { font-size: 11px; font-weight: 600; color: #b36b00; margin-left: 6px; }
+.hotel { border-left: 3px solid var(--red); padding-left: 10px; }
+.jp { font-size: 19px; line-height: 1.5; user-select: all; -webkit-user-select: all; }
+.botoes { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+.btn, button { font: inherit; font-size: 14px; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 10px; padding: 7px 12px; text-decoration: none; cursor: pointer; }
+.btn.pri, button.pri { background: var(--red); border-color: var(--red); color: #fff; }
+.btn.doc { border-color: var(--red); color: var(--red); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; } .chip { background: var(--chip); border: 0; border-radius: 999px; padding: 5px 11px; font-size: 14px; }
+textarea.nota { width: 100%; min-height: 64px; font: inherit; font-size: 16px; padding: 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); resize: vertical; }
+details.linha, details.local { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin-bottom: 8px; }
+details > summary { list-style: none; cursor: pointer; padding: 10px 12px; display: flex; gap: 12px; align-items: center; }
+details > summary::-webkit-details-marker { display: none; }
+details.linha[open] { border-color: var(--red); } details.linha .dia { border: 0; margin: 0; padding-top: 0; }
+.data { min-width: 46px; font-weight: 600; } .data small, .onde small, summary span small { display: block; color: var(--mute); font-weight: 400; font-size: 13px; }
+.hoje-marca { color: var(--red); }
+details.local i { flex: none; width: 12px; height: 12px; border-radius: 50%; }
+details.local .corpo { padding: 0 12px 12px; }
+details.secao { border-bottom: 1px solid var(--line); }
+details.secao > summary { padding: 14px 2px; font-weight: 600; justify-content: space-between; }
+details.secao > summary::after { content: "+"; color: var(--mute); font-weight: 400; font-size: 20px; line-height: 1; }
+details.secao[open] > summary::after { content: "–"; }
+details.secao > :last-child { margin-bottom: 12px; }
+h3.grupo { margin-top: 18px; } h3.grupo small { font-weight: 400; }
+.barra { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.barra input, .barra select { font: inherit; font-size: 16px; padding: 7px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--ink); min-width: 0; }
+.barra input { flex: 1 1 100%; } .barra select { flex: 1 1 0; }
+#mapa { position: fixed; inset: 0; top: var(--top, 50px); bottom: calc(var(--nav) + env(safe-area-inset-bottom)); padding: 0; }
+#mapabar { position: absolute; z-index: 2; top: 8px; left: 8px; right: 56px; display: flex; gap: 6px; flex-wrap: wrap; }
+#mapabar select, #mapabar button { font-size: 14px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); box-shadow: 0 1px 4px #0002; }
+#mapamsg { font-size: 13px; background: var(--card); padding: 4px 8px; border-radius: 8px; box-shadow: 0 1px 4px #0002; }
+#map { position: absolute; inset: 0; }
+#legenda { position: absolute; z-index: 2; left: 8px; bottom: 8px; background: var(--card); border-radius: 8px; box-shadow: 0 1px 4px #0002; font-size: 13px; max-width: 60%; }
+#legenda summary { padding: 5px 10px; } #legenda div { padding: 0 10px 8px; }
+#legenda span { display: flex; align-items: center; gap: 6px; margin: 2px 0; } #legenda i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid #fff; flex: none; }
+.maplibregl-popup-content { color: #1d1d1f; font-size: 14px; } .maplibregl-popup-content .btn { color: #1d1d1f; background: #fff; border-color: #ddd; }
+nav { position: fixed; z-index: 10; left: 0; right: 0; bottom: 0; height: calc(var(--nav) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); background: var(--card); border-top: 1px solid var(--line); display: flex; }
+nav button { flex: 1; border: 0; border-radius: 0; background: none; color: var(--mute); font-size: 12px; padding: 6px 0; display: flex; flex-direction: column; align-items: center; gap: 3px; }
+nav svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+nav button.on { color: var(--red); }
+#login { max-width: 360px; margin: 18vh auto 0; padding: 0 16px; }
+#login input { width: 100%; font: inherit; font-size: 18px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--ink); margin: 8px 0; }
+#login button { width: 100%; font-size: 17px; padding: 11px; }
+.info-item { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; margin-bottom: 8px; }
+.info-item p { margin: 4px 0; }
+#importmsg { white-space: pre-line; }
+#doc { position: fixed; inset: 0; z-index: 20; background: #fff; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.docbar { position: sticky; top: 0; display: flex; gap: 8px; align-items: center; padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.docbar b { flex: 1; font-size: 15px; line-height: 1.25; }
+#docpags img { display: block; width: 100%; height: auto; border-bottom: 1px solid #ccc; }
+#perto { position: fixed; z-index: 11; left: 8px; right: 8px; bottom: calc(var(--nav) + env(safe-area-inset-bottom) + 8px); max-width: 704px; margin: 0 auto; background: var(--card); border: 2px solid var(--red); border-radius: 14px; padding: 10px 12px 4px; box-shadow: 0 4px 16px #0003; }
+</style>
+</head>
+<body>
+<header><h1>Japão 2026</h1><span id="sub"></span></header>
+
+<form id="login" hidden>
+  <p>Os dados da viagem estão criptografados. Digite a senha uma vez neste aparelho.</p>
+  <input type="password" id="senha" placeholder="Senha" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" required>
+  <button class="pri" type="submit">Abrir</button>
+  <p id="loginmsg" class="mute"></p>
+</form>
+
+<main id="app" hidden>
+  <section id="hoje"></section>
+  <section id="roteiro" hidden></section>
+  <section id="mapa" hidden>
+    <div id="mapabar"><select id="irpara"><option value="">Ir para…</option></select><button id="baixar" type="button">Baixar mapas</button><span id="mapamsg" hidden></span></div>
+    <div id="map"></div>
+    <details id="legenda"><summary>Legenda</summary><div id="legitens"></div></details>
+  </section>
+  <section id="locais" hidden>
+    <div class="barra"><input id="busca" type="search" placeholder="Buscar local"><select id="fcat"><option value="">Categoria</option></select><select id="fcid"><option value="">Cidade</option></select></div>
+    <div id="lista"></div>
+  </section>
+  <section id="info" hidden></section>
+</main>
+
+<div id="perto" hidden></div>
+<div id="doc" hidden><div class="docbar"><b id="doctit"></b><button type="button" data-acao="compartilhar">Compartilhar</button><button type="button" class="pri" data-acao="fechar-doc">Fechar</button></div><div id="docpags"></div></div>
+
+<nav id="nav" hidden>
+  <button data-tab="hoje"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Hoje</button>
+  <button data-tab="roteiro"><svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></svg>Roteiro</button>
+  <button data-tab="mapa"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-5.9-6.5-11a6.5 6.5 0 0 1 13 0c0 5.1-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Mapa</button>
+  <button data-tab="locais"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>Locais</button>
+  <button data-tab="info"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.8v.01"/></svg>Info</button>
+</nav>
+<script src="app.js"></script>
+</body>
+</html>
