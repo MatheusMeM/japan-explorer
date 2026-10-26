@@ -473,7 +473,7 @@ function popup(id) {
   const html = h
     ? `<b>${esc(h.nome)}</b><br>${ddmm(h.checkin)}–${ddmm(h.checkout)}${h.endereco_jp ? `<br>${esc(h.endereco_jp)}` : ''}<div class="botoes">${botoesDocs(docsDe(h.nome))}<a class="btn" href="${esc(linkMapsHotel(h))}" target="_blank" rel="noopener">Google Maps</a></div>`
     : `<b>${esc(l.nome)}</b><br><small>${esc([l.categoria, l.bairro, l.cidade].filter(Boolean).join(' · '))}</small>${comentario(l)}${notas['local:' + l.id] ? `<p><i>${esc(notas['local:' + l.id])}</i></p>` : ''}
-       <div class="botoes"><a class="btn" href="${esc(linkMaps(l))}" target="_blank" rel="noopener">Abrir no Google Maps</a><button class="btn" data-ver="${esc(l.id)}">Detalhes</button></div>`;
+       <div class="botoes"><a class="btn" href="${esc(linkMaps(l))}" target="_blank" rel="noopener">Abrir no Google Maps</a>${linksPost(l)}<button class="btn" data-ver="${esc(l.id)}">Detalhes</button></div>`;
   new maplibregl.Popup({ maxWidth: '270px' }).setLngLat([p.lng, p.lat]).setHTML(html).addTo(mapa);
 }
 
