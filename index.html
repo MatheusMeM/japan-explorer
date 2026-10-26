@@ -66,7 +66,7 @@ h3.grupo { margin-top: 18px; } h3.grupo small { font-weight: 400; }
 #legenda { position: absolute; z-index: 2; left: 8px; bottom: 8px; background: var(--card); border-radius: 8px; box-shadow: 0 1px 4px #0002; font-size: 13px; max-width: 60%; }
 #legenda summary { padding: 5px 10px; } #legenda div { padding: 0 10px 8px; }
 #legenda span { display: flex; align-items: center; gap: 6px; margin: 2px 0; } #legenda i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid #fff; flex: none; }
-.maplibregl-popup-content { color: #1d1d1f; font-size: 14px; } .maplibregl-popup-content .btn { color: #1d1d1f; background: #fff; border-color: #ddd; }
+.maplibregl-popup-content { color: #1d1d1f; font-size: 14px; max-height: 45vh; overflow-y: auto; } .maplibregl-popup-content p { margin: 4px 0; } .maplibregl-popup-content .btn { color: #1d1d1f; background: #fff; border-color: #ddd; }
 nav { position: fixed; z-index: 10; left: 0; right: 0; bottom: 0; height: calc(var(--nav) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); background: var(--card); border-top: 1px solid var(--line); display: flex; }
 nav button { flex: 1; border: 0; border-radius: 0; background: none; color: var(--mute); font-size: 12px; padding: 6px 0; display: flex; flex-direction: column; align-items: center; gap: 3px; }
 nav svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
@@ -106,6 +106,10 @@ nav button.on { color: var(--red); }
     <div class="barra"><input id="busca" type="search" placeholder="Buscar local"><select id="fcat"><option value="">Categoria</option></select><select id="fcid"><option value="">Cidade</option></select></div>
     <div id="lista"></div>
   </section>
+  <section id="dicas" hidden>
+    <div class="barra"><input id="dbusca" type="search" placeholder="Buscar dica ou frase"><select id="dcat"><option value="">Categoria</option></select><select id="dcid"><option value="">Cidade</option></select><select id="dtipo"><option value="">Tipo</option></select></div>
+    <div id="dlista"></div>
+  </section>
   <section id="info" hidden></section>
 </main>
 
@@ -117,6 +121,7 @@ nav button.on { color: var(--red); }
   <button data-tab="roteiro"><svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></svg>Roteiro</button>
   <button data-tab="mapa"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-5.9-6.5-11a6.5 6.5 0 0 1 13 0c0 5.1-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Mapa</button>
   <button data-tab="locais"><svg viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>Locais</button>
+  <button data-tab="dicas"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>Dicas</button>
   <button data-tab="info"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.8v.01"/></svg>Info</button>
 </nav>
 <script src="app.js"></script>

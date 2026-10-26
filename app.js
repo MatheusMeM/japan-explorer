@@ -75,6 +75,7 @@ function normalizar(r, importado = false) {
     nome, cidade: g('cidade'), bairro: g('bairro'), categoria: catDe(g('categoria')),
     lat: noJapao ? lat : null, lng: noJapao ? lng : null,
     maps_url: http(g('maps_url')), nota: g('nota'), fonte_url: http(g('fonte_url')),
+    o_que: g('o_que'), por_que: g('por_que'), dicas: g('dicas'), fontes: (Array.isArray(r.fontes) ? r.fontes : []).map(http).filter(Boolean),
     data: /^\d{4}-\d{2}-\d{2}$/.test(g('data')) ? g('data') : '', importado,
   };
 }
@@ -225,9 +226,10 @@ function renderRoteiro() {
 // ---------- documentos (PDFs renderizados em JPEG e cifrados pelo build.py) ----------
 const docsDe = ref => (D.docs || []).filter(d => d.ref === ref);
 const docsDoDia = data => (D.docs || []).filter(d => d.janelas.some(([a, b]) => a <= data && data <= b));
-const botoesDocs = ds => ds.map(d => `<button class="btn doc" data-doc="${esc(d.id)}">${esc(d.rotulo)}</button>`).join('');
+// Link de verdade para o PDF no Google Drive: sem cópia offline e com internet, o toque abre o Drive (o clique não intercepta).
+const botoesDocs = ds => ds.map(d => `<a class="btn doc" data-doc="${esc(d.id)}" href="${esc(d.drive || '#')}" target="_blank" rel="noopener">${esc(d.rotulo)}</a>`).join('');
 
-// Páginas não vão para o site público: chegam pelo arquivo documentos-japao.bin (Google Drive), importado em Info → App.
+// Cópia offline opcional: páginas cifradas no arquivo documentos-japao.bin (Google Drive), importado em Info → App.
 const abrirAes = async b => new Uint8Array(await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b.slice(0, 12) }, CHAVE, b.slice(12)));
 const b64bytes = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
 const privado = () => store.get('privado', {});
@@ -246,18 +248,26 @@ async function importarDocs(texto) {
   await contarDocs();
 }
 
+// Só chega aqui com cópia offline completa ou sem internet (ver o clique em [data-doc]).
 async function abrirDoc(id) {
   const d = (D.docs || []).find(x => x.id === id);
   if (!d) return;
   abrirDoc.atual = d; abrirDoc.blobs = [];
   $('#doctit').textContent = d.titulo;
-  $('#docpags').innerHTML = '<p class="mute" style="padding:12px">Abrindo…</p>';
   $('#doc').hidden = false; $('#doc').scrollTop = 0;
+  if (!docsAqui.has(d.id)) return semCopia(d);
+  $('#docpags').innerHTML = '<p class="mute" style="padding:12px">Abrindo…</p>';
   try {
     abrirDoc.blobs = await Promise.all(d.paginas.map(paginaDoc));
     if (abrirDoc.atual === d) $('#docpags').innerHTML = abrirDoc.blobs.map(b => `<img src="${URL.createObjectURL(b)}" alt="">`).join('');
-  } catch (e) { $('#docpags').innerHTML = `<p class="aviso" style="margin:12px">Não abriu (${esc(e.message)}). Importe documentos-japao.bin em Info → App.</p>`; }
+  } catch { semCopia(d); }
 }
+
+const semCopia = d => {
+  $('#docpags').innerHTML = `<div class="aviso" style="margin:12px"><p>Sem cópia offline deste documento${navigator.onLine ? '' : ' e sem internet'}.</p>
+    <div class="botoes">${d.drive ? `<a class="btn" href="${esc(d.drive)}" target="_blank" rel="noopener">Abrir no Google Drive</a>` : ''}
+    <label class="btn pri">Importar cópia offline<input type="file" data-arqdocs hidden></label></div><p class="mute" id="semcopiamsg"></p></div>`;
+};
 
 function fecharDoc() {
   $('#docpags').querySelectorAll('img').forEach(i => URL.revokeObjectURL(i.src));
@@ -272,14 +282,14 @@ async function compartilharDoc() {
 }
 
 // Cache 'docs' persiste entre versões (nome = hash do conteúdo); página que saiu do build é apagada.
-let estadoDocs = '';
+let estadoDocs = '', docsAqui = new Set();   // ids com todas as páginas no cache 'docs'
 async function contarDocs() {
   const c = await caches.open('docs'), todas = (D.docs || []).flatMap(d => d.paginas.map(u => BASE + u));
-  let ok = 0;
-  for (const u of todas) if (await c.match(u)) ok++;
-  for (const k of await c.keys()) if (!todas.includes(k.url)) await c.delete(k);
-  estadoDocs = `Documentos neste aparelho: ${ok} de ${todas.length} páginas.`
-    + (ok < todas.length ? ' Importe documentos-japao.bin (Google Drive, Japan Explorer/dashboard).' : '');
+  const tem = new Set();
+  for (const k of await c.keys()) todas.includes(k.url) ? tem.add(k.url) : await c.delete(k);
+  docsAqui = new Set((D.docs || []).filter(d => d.paginas.every(u => tem.has(BASE + u))).map(d => d.id));
+  estadoDocs = `Documentos neste aparelho: ${tem.size} de ${todas.length} páginas.`
+    + (tem.size < todas.length ? ' Sem cópia offline, os botões dos documentos abrem o PDF no Google Drive (precisa de internet). Para ter offline, importe documentos-japao.bin (Google Drive, Japan Explorer/dashboard).' : '');
   if ($('#armazdocs')) $('#armazdocs').textContent = estadoDocs;
 }
 
@@ -309,13 +319,19 @@ function checarGPS() {
   }).catch(() => { });
 }
 
+// Comentário do local: nome em japonês, o que é, por que ir e dicas (triagem do Instagram).
+const comentario = l => [['', l.nota], ['O que', l.o_que], ['Por que ir', l.por_que], ['Dica', l.dicas]].filter(([, t]) => t)
+  .map(([r, t]) => `<p>${r ? `<b>${r}:</b> ` : ''}${fmt(t)}</p>`).join('');
+const linksPost = l => { const fs = l.fontes?.length ? l.fontes : [l.fonte_url].filter(Boolean);
+  return fs.map((u, i) => `<a class="btn" href="${esc(u)}" target="_blank" rel="noopener">Post${fs.length > 1 ? ' ' + (i + 1) : ''}</a>`).join(''); };
+
 function itemLocal(l) {
   return `<details class="local" id="l-${esc(l.id)}"><summary><i style="background:${CATS[l.categoria]}"></i>
     <span>${esc(l.nome)}<small>${esc([l.categoria, l.bairro, l.data && ddmm(l.data)].filter(Boolean).join(' · '))}${l.lat == null ? ' · sem pin' : ''}</small></span></summary>
-    <div class="corpo">${l.nota ? `<p>${fmt(l.nota)}</p>` : ''}
-    <div class="botoes"><a class="btn" href="${esc(linkMaps(l))}" target="_blank" rel="noopener">Google Maps</a>
+    <div class="corpo">${comentario(l)}
+    <div class="botoes"><a class="btn" href="${esc(linkMaps(l))}" target="_blank" rel="noopener">Abrir no Google Maps</a>
     ${l.lat != null ? `<button class="btn" data-mapa="${esc(l.id)}">Ver no mapa</button>` : ''}
-    ${l.fonte_url ? `<a class="btn" href="${esc(l.fonte_url)}" target="_blank" rel="noopener">Post</a>` : ''}
+    ${linksPost(l)}
     ${l.importado ? `<button class="btn" data-remover="${esc(l.id)}">Remover</button>` : ''}</div>
     ${campoNota('local:' + l.id, 'Minha nota…')}</div></details>`;
 }
@@ -325,12 +341,13 @@ function renderLocais() {
   const cids = [...new Set(L.map(l => l.cidade).filter(Boolean))].sort();
   $('#fcid').innerHTML = '<option value="">Cidade</option>' + cids.map(c => `<option${c === cid ? ' selected' : ''}>${esc(c)}</option>`).join('');
   const vis = L.filter(l => (!cat || l.categoria === cat) && (!cid || l.cidade === cid)
-    && (!q || norm([l.nome, l.bairro, l.cidade, l.nota].join(' ')).includes(q)));
+    && (!q || norm([l.nome, l.bairro, l.cidade, l.nota, l.o_que, l.por_que, l.dicas].join(' ')).includes(q)));
   if (!L.length) { $('#lista').innerHTML = '<p class="aviso">Nenhum local ainda. Importe um arquivo JSON ou CSV em Info → Importar locais.</p>'; return; }
   const grupos = new Map();
   vis.forEach(l => { const g = l.cidade || 'Sem cidade'; grupos.has(g) ? grupos.get(g).push(l) : grupos.set(g, [l]); });
-  $('#lista').innerHTML = [...grupos].map(([g, ls]) => `<h3 class="grupo">${esc(g)} <small>${ls.length}</small></h3>` + ls.map(itemLocal).join('')).join('')
-    || '<p class="mute">Nada encontrado.</p>';
+  const lista = D.links?.lista_maps ? `<div class="botoes"><a class="btn" href="${esc(D.links.lista_maps)}" target="_blank" rel="noopener">Lista "Japão by Theus" no Google Maps</a></div>` : '';
+  $('#lista').innerHTML = lista + ([...grupos].map(([g, ls]) => `<h3 class="grupo">${esc(g)} <small>${ls.length}</small></h3>` + ls.map(itemLocal).join('')).join('')
+    || '<p class="mute">Nada encontrado.</p>');
 }
 
 function renderInfo() {
@@ -353,13 +370,14 @@ function renderInfo() {
     + secao('Passes de trem', passes)
     + secao('Hospedagens', hoteis)
     + secao('Reservas e ingressos', reservas)
+    + secao('Outros documentos', docs('outros'))
     + secao('Pendências', pend)
     + secao('Locais e backup', `<div class="info-item"><p>Importar locais (JSON ou CSV: nome, cidade, bairro, categoria, lat, lng, maps_url, nota, fonte_url, data) ou restaurar um backup.</p>
       <div class="botoes"><label class="btn pri">Importar arquivo<input type="file" id="arquivo" hidden></label>
       <button data-acao="exemplo">Importar exemplo</button><button data-acao="exportar">Exportar backup</button></div>
       <p id="importmsg" class="mute"></p></div>`)
     + secao('App', `<div class="info-item"><p id="armaz" class="mute"></p><p id="armazdocs" class="mute">${esc(estadoDocs)}</p>
-      <div class="botoes"><label class="btn pri">Importar documentos<input type="file" id="arqdocs" hidden></label></div>
+      <div class="botoes"><label class="btn pri">Importar documentos<input type="file" id="arqdocs" data-arqdocs hidden></label></div>
       <p class="mute">Dados gerados em ${esc(D.gerado)}.</p>
       <div class="botoes"><button data-acao="gps">Ativar aviso por GPS</button><button data-acao="atualizar">Procurar atualização</button><button data-acao="sair">Esquecer senha</button></div></div>`);
   navigator.storage?.estimate?.().then(({ usage, quota }) => { $('#armaz').textContent = `Armazenamento usado: ${mb(usage)} de ${mb(quota)}.`; });
@@ -370,6 +388,30 @@ function mostrarLocal(id) {
   $('#busca').value = ''; $('#fcat').value = ''; $('#fcid').value = ''; renderLocais();
   const el = document.getElementById('l-' + id);
   if (el) { el.open = true; el.scrollIntoView({ block: 'center' }); }
+}
+
+// ---------- dicas (posts salvos que não são lugar: etiqueta, frases, golpes, apps…) ----------
+function renderDicas() {
+  const X = D.dicas || { categorias: [], tipos: [], itens: [] };
+  const q = norm($('#dbusca').value), cat = $('#dcat').value, cid = $('#dcid').value, tipo = $('#dtipo').value;
+  const opc = (sel, rot, vals, atual) => { $(sel).innerHTML = `<option value="">${rot}</option>`
+    + vals.map(([v, n]) => `<option value="${esc(v)}"${v === atual ? ' selected' : ''}>${esc(n)}</option>`).join(''); };
+  opc('#dcat', 'Categoria', X.categorias.map(c => [c.id, c.nome]), cat);
+  opc('#dtipo', 'Tipo', X.tipos.map(t => [t.id, t.nome]), tipo);
+  opc('#dcid', 'Cidade', [...new Set(X.itens.flatMap(i => i.cidades || []))].sort().map(c => [c, c]), cid);
+  const T = Object.fromEntries(X.tipos.map(t => [t.id, t.nome]));
+  const vis = X.itens.filter(i => (!cat || i.categoria === cat) && (!tipo || i.tipo === tipo) && (!cid || (i.cidades || []).includes(cid))
+    && (!q || norm([i.titulo, i.texto, ...(i.locais || []), ...(i.frases || []).flatMap(f => [f.jp, f.romaji, f.pt])].join(' ')).includes(q)));
+  const item = (i, cor) => `<details class="local"><summary><i style="background:${esc(cor)}"></i>
+    <span>${esc(i.titulo)}<small>${esc([T[i.tipo], (i.cidades || []).join(', ')].filter(Boolean).join(' · '))}</small></span></summary>
+    <div class="corpo"><p>${fmt(i.texto)}</p>
+    ${(i.frases || []).length ? `<ul>${i.frases.map(f => `<li><span class="jp">${esc(f.jp)}</span> <em>${esc(f.romaji)}</em> · ${esc(f.pt)}${f.quando ? `<br><span class="mute">${esc(f.quando)}</span>` : ''}</li>`).join('')}</ul>` : ''}
+    ${(i.locais || []).length ? `<p class="mute">Lugares citados: ${esc(i.locais.join(', '))}</p>` : ''}
+    <div class="botoes">${(i.fontes || []).filter(f => http(f.url)).map((f, n, fs) => `<a class="btn" href="${esc(f.url)}" target="_blank" rel="noopener">Post${fs.length > 1 ? ' ' + (n + 1) : ''}</a>`).join('')}</div></div></details>`;
+  const corpo = X.categorias.map(c => { const g = vis.filter(i => i.categoria === c.id);
+    return g.length ? `<h3 class="grupo">${esc(c.nome)} <small>${g.length}</small></h3>` + g.map(i => item(i, c.cor)).join('') : ''; }).join('');
+  $('#dlista').innerHTML = (D.links?.kokoroe ? `<div class="botoes"><a class="btn" href="${esc(D.links.kokoroe)}" target="_blank" rel="noopener">Abrir Kokoroe (artefato de dicas)</a></div>` : '')
+    + (corpo || '<p class="mute">Nada encontrado.</p>');
 }
 
 // ---------- mapa ----------
@@ -430,8 +472,8 @@ function popup(id) {
   if (!p || p.lat == null) return;
   const html = h
     ? `<b>${esc(h.nome)}</b><br>${ddmm(h.checkin)}–${ddmm(h.checkout)}${h.endereco_jp ? `<br>${esc(h.endereco_jp)}` : ''}<div class="botoes">${botoesDocs(docsDe(h.nome))}<a class="btn" href="${esc(linkMapsHotel(h))}" target="_blank" rel="noopener">Google Maps</a></div>`
-    : `<b>${esc(l.nome)}</b><br><small>${esc([l.categoria, l.bairro, l.cidade].filter(Boolean).join(' · '))}</small>${l.nota ? `<br>${fmt(l.nota)}` : ''}${notas['local:' + l.id] ? `<br><i>${esc(notas['local:' + l.id])}</i>` : ''}
-       <div class="botoes"><a class="btn" href="${esc(linkMaps(l))}" target="_blank" rel="noopener">Google Maps</a><button class="btn" data-ver="${esc(l.id)}">Detalhes</button></div>`;
+    : `<b>${esc(l.nome)}</b><br><small>${esc([l.categoria, l.bairro, l.cidade].filter(Boolean).join(' · '))}</small>${comentario(l)}${notas['local:' + l.id] ? `<p><i>${esc(notas['local:' + l.id])}</i></p>` : ''}
+       <div class="botoes"><a class="btn" href="${esc(linkMaps(l))}" target="_blank" rel="noopener">Abrir no Google Maps</a><button class="btn" data-ver="${esc(l.id)}">Detalhes</button></div>`;
   new maplibregl.Popup({ maxWidth: '270px' }).setLngLat([p.lng, p.lat]).setHTML(html).addTo(mapa);
 }
 
@@ -497,6 +539,7 @@ function aba(nome) {
   if (nome === 'mapa') abrirMapa();
   if (nome === 'locais') renderLocais();
   if (nome === 'info') renderInfo();
+  if (nome === 'dicas') renderDicas();
   if (nome !== 'mapa') window.scrollTo(0, 0);
   store.set('aba', nome);
 }
@@ -511,7 +554,11 @@ document.addEventListener('click', e => {
   const t = e.target.closest('[data-tab],[data-mapa],[data-mapa-hotel],[data-ver],[data-remover],[data-acao],[data-doc],[data-cidade]');
   if (!t) return;
   const ds = t.dataset;
-  if (ds.doc) abrirDoc(ds.doc);
+  if (ds.doc) {
+    // Com cópia offline abre aqui; sem cópia e com internet o link segue para o Drive; sem os dois, aviso com atalho.
+    const d = (D.docs || []).find(x => x.id === ds.doc);
+    if (docsAqui.has(ds.doc) || !navigator.onLine || !d?.drive) { e.preventDefault(); abrirDoc(ds.doc); }
+  }
   else if (ds.acao === 'fechar-doc') fecharDoc();
   else if (ds.acao === 'compartilhar') compartilharDoc();
   else if (ds.acao === 'gps') gpsAgora();
@@ -541,12 +588,16 @@ document.addEventListener('change', async e => {
     catch (err) { mostrarImport('Arquivo inválido: ' + err.message); }
     e.target.value = '';
   }
-  if (e.target.id === 'arqdocs' && e.target.files[0]) {
-    $('#armazdocs').textContent = 'Importando documentos…';
-    try { await importarDocs(await e.target.files[0].text()); renderHoje(); renderRoteiro(); renderInfo(); }
-    catch (err) { $('#armazdocs').textContent = 'Arquivo de documentos inválido ou de outra senha (' + err.message + ').'; }
+  if (e.target.matches('[data-arqdocs]') && e.target.files[0]) {
+    const msg = t => ['#armazdocs', '#semcopiamsg'].forEach(s => { if ($(s)) $(s).textContent = t; });
+    msg('Importando documentos…');
+    try {
+      await importarDocs(await e.target.files[0].text()); renderHoje(); renderRoteiro(); renderInfo();
+      if (abrirDoc.atual) abrirDoc(abrirDoc.atual.id);   // importou pelo aviso do documento: já mostra
+    } catch (err) { msg('Arquivo de documentos inválido ou de outra senha (' + err.message + ').'); }
     e.target.value = '';
   }
+  if (['dcat', 'dcid', 'dtipo'].includes(e.target.id)) renderDicas();
   if (e.target.id === 'irpara' && e.target.value) {
     // Centro da cidade em zoom de rua: hotel da região se houver (o de hoje primeiro), senão o centro do recorte.
     const b = D.mapas.map(m => m.regioes[e.target.value]).find(Boolean);
@@ -559,7 +610,7 @@ document.addEventListener('change', async e => {
   }
   if (e.target.id === 'fcat' || e.target.id === 'fcid') renderLocais();
 });
-document.addEventListener('input', e => { if (e.target.id === 'busca') renderLocais(); });
+document.addEventListener('input', e => { if (e.target.id === 'busca') renderLocais(); if (e.target.id === 'dbusca') renderDicas(); });
 
 function mostrarImport(msg) {
   const el = $('#importmsg');
