@@ -323,7 +323,7 @@ function checarGPS() {
 const comentario = l => [['', l.nota], ['O que', l.o_que], ['Por que ir', l.por_que], ['Dica', l.dicas]].filter(([, t]) => t)
   .map(([r, t]) => `<p>${r ? `<b>${r}:</b> ` : ''}${fmt(t)}</p>`).join('');
 const linksPost = l => { const fs = l.fontes?.length ? l.fontes : [l.fonte_url].filter(Boolean);
-  return fs.map((u, i) => `<a class="btn" href="${esc(u)}" target="_blank" rel="noopener">Post${fs.length > 1 ? ' ' + (i + 1) : ''}</a>`).join(''); };
+  return fs.map((u, i) => `<a class="btn" href="${esc(u)}" target="_blank" rel="noopener">${/instagram|tiktok/.test(u) ? 'Post' + (fs.length > 1 ? ' ' + (i + 1) : '') : esc(hostDe(u))}</a>`).join(''); };
 
 function itemLocal(l) {
   return `<details class="local" id="l-${esc(l.id)}"><summary><i style="background:${CATS[l.categoria]}"></i>
