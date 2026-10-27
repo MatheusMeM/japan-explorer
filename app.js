@@ -21,7 +21,7 @@ const tc = s => String(s ?? '').replace(/(https?:\/\/\S+)|[\p{L}\d]+/gu, (w, u, 
   return w;
 });
 const fdata = c => /^\d{4}-\d{2}-\d{2}/.test(c || '') ? ddmm(c) + c.slice(10) : (c || '');   // "2026-10-27 11:20" -> "27/10 11:20"
-const CATS = { comida: '#e4572e', 'café': '#a0522d', bar: '#8e44ad', templo: '#bc002d', museu: '#2e86de', natureza: '#27ae60', compras: '#f39c12', mirante: '#16a085', 'experiência': '#d35400', bairro: '#e84393', outro: '#7f8c8d' };
+const CATS = { comida: '#e4572e', 'café': '#a0522d', bar: '#8e44ad', templo: '#bc002d', museu: '#2e86de', natureza: '#27ae60', compras: '#f39c12', 'câmera': '#3c40c6', mirante: '#16a085', 'experiência': '#d35400', bairro: '#e84393', outro: '#7f8c8d' };
 const catDe = c => Object.keys(CATS).find(k => norm(k) === norm(c)) || 'outro';
 
 const store = {
@@ -460,9 +460,63 @@ async function baixarMapas() {
 
 function geoPontos() {
   const f = [], pt = (lng, lat, p) => f.push({ type: 'Feature', geometry: { type: 'Point', coordinates: [lng, lat] }, properties: p });
-  for (const h of D.hoteis) if (h.lat != null) pt(h.lng, h.lat, { id: 'h:' + h.nome, nome: h.nome, cor: '#111', hotel: 1 });
-  for (const l of locais()) if (l.lat != null) pt(l.lng, l.lat, { id: l.id, nome: l.nome, cor: CATS[l.categoria], hotel: 0 });
+  for (const h of D.hoteis) if (h.lat != null) pt(h.lng, h.lat, { id: 'h:' + h.nome, nome: h.nome, cor: '#111', hotel: 1, cat: 'hospedagem' });
+  for (const l of locais()) if (l.lat != null) pt(l.lng, l.lat, { id: l.id, nome: l.nome, cor: CATS[l.categoria], hotel: 0, cat: l.categoria });
   return { type: 'FeatureCollection', features: f };
+}
+
+// Legenda = filtro: toque liga/desliga a categoria no mapa; fica salvo no aparelho.
+let ocultas = new Set(store.get('mapa_ocultas', []));
+const LEG = () => [['hospedagem', '#111'], ...Object.entries(CATS)];
+function renderLegenda() {
+  $('#legitens').innerHTML = '<p><button type="button" data-guia>Roteiro de câmeras ›</button></p>' + LEG().map(([c, cor]) => `<button type="button" data-cat="${c}"${ocultas.has(c) ? ' class="off"' : ''}><i style="background:${cor}"></i>${c}</button>`).join('')
+    + '<p><button type="button" data-cat="*">todos</button><button type="button" data-cat="-">nenhum</button></p>';
+  $('#legenda summary').textContent = ocultas.size ? `Filtro · ${LEG().length - ocultas.size} de ${LEG().length}` : 'Filtro';
+  if (mapa && mapa.getLayer('pontos')) for (const id of ['pontos', 'pontos-nome']) mapa.setFilter(id, ['!', ['in', ['get', 'cat'], ['literal', [...ocultas]]]]);
+}
+// Roteiro de câmeras usadas (dos posts salvos, principalmente @jp_used_camera). data-local = nome exato do local.
+const GUIA_CAMERA = `<h3>Roteiro de câmeras usadas · Tóquio</h3>
+<p><b>Tax-free:</b> até 31/10 sai no caixa; a partir de 1/11 só reembolso na partida. Leve o passaporte original.</p>
+<h4>1. Shinjuku oeste (tudo a ~5 min a pé)</h4>
+<p><a data-local="Used Camera BOX (Chuko Camera BOX)">Used Camera BOX (中古カメラBOX)</a>: melhor parada. ~1.000 câmeras de filme e digicams, várias abaixo de US$ 10; dono testa tudo. Subsolo, 1-13-7 Nishi-Shinjuku. Reserve 1h30; algumas vêm riscadas.</p>
+<p><a data-local="Map Camera Shinjuku (Honkan)">Map Camera</a>: prédio principal caro, mas a seção junk tem câmeras limpas bem baratas. Garantia de 1 semana a 1 ano nos usados. 11h–20h.</p>
+<p><a data-local="Kitamura Camera Shinjuku (Kitamura Shashinkiten)">Kitamura (北村写真機店)</a>: 3º andar baratas sem garantia (aposta); 4º andar em bom estado.</p>
+<p><a data-local="Lemon-sha Shinjuku">Lemon-sha</a>: usadas, mais digicams. · <a data-local="Five Star Camera">Five Star Camera</a>: só digicam, um pouco cara (2º andar, tax-free).</p>
+<h4>2. Nakano (1 estação de Shinjuku)</h4>
+<p><a data-local="Fujiya Camera">Fujiya Camera</a>: 2 min da estação; grau B costuma ser bom; filme e cinema.</p>
+<p><a data-local="Fujiya Camera Junk Hall">Fujiya Junk Hall</a>: ~7 min; digitais por menos de US$ 10. Leve bateria para testar.</p>
+<h4>3. Kichijoji (mesma linha)</h4>
+<p><a data-local="Hard Off Camera Kan Kichijoji">Hard Off Camera Kan</a>: filial só de câmeras; caixas de pechincha; Handycam junk ¥1.000–3.000.</p>
+<h4>Opcional · Ebisu</h4>
+<p><a data-local="Tokyo Used Camera (Ebisu)">Tokyo Used Camera</a>: mais seguro que barato. Digicams Y2K e Contax T2/T3 testadas, inglês, confere shutter count; única com Sony em menu inglês.</p>
+<h4>Regras de garimpo</h4>
+<p>ジャンク品 (junk) = sem garantia; fotografe a etiqueta verde com o tradutor (diz o que foi testado). 中古 = usado. Sony do Japão costuma ter menu só em japonês. Digicam Y2K funcionando é cara até na Hard Off. Peça o shutter count.</p>
+<p class="mute">Horário de abertura (~10–11h) não vem dos posts.</p>`;
+function abrirGuia() {
+  ocultas = new Set(LEG().map(x => x[0]).filter(c => c !== 'câmera'));
+  store.set('mapa_ocultas', [...ocultas]);
+  renderLegenda();
+  $('#guia').innerHTML = '<button type="button" class="btn" data-fechar>Fechar</button>' + GUIA_CAMERA;
+  $('#guia').hidden = false;
+}
+function clicarGuia(e) {
+  const a = e.target.closest('[data-local],[data-fechar]');
+  if (!a) return;
+  if (a.dataset.fechar !== undefined) { $('#guia').hidden = true; return; }
+  const l = locais().find(x => x.nome === a.dataset.local);
+  if (!l) return;
+  if (l.lat == null) { open(linkMaps(l), '_blank', 'noopener'); return; }  // sem pin no app: abre no Google Maps
+  $('#guia').hidden = true;
+  abrirMapa(l);
+}
+function clicarLegenda(e) {
+  if (e.target.closest('[data-guia]')) return abrirGuia();
+  const c = e.target.closest('[data-cat]')?.dataset.cat;
+  if (!c) return;
+  ocultas = c === '*' ? new Set() : c === '-' ? new Set(LEG().map(x => x[0])) : ocultas;
+  if (c !== '*' && c !== '-') ocultas.has(c) ? ocultas.delete(c) : ocultas.add(c);
+  store.set('mapa_ocultas', [...ocultas]);
+  renderLegenda();
 }
 
 function popup(id) {
@@ -516,6 +570,14 @@ async function criarMapa() {
     'text-field': ['get', 'nome'], 'text-font': ['Noto Sans Medium'], 'text-size': 12, 'text-offset': [0, 1.1], 'text-anchor': 'top', 'text-optional': true },
     paint: { 'text-color': '#222', 'text-halo-color': '#fff', 'text-halo-width': 1.5 } });
   mapa.on('click', 'pontos', e => popup(e.features[0].properties.id));
+  renderLegenda();
+  // Ponto azul do GPS sempre visível, sem mexer na câmera (o botão de localizar continua centralizando).
+  // ponytail: watchPosition fica ligado com o app aberto; desligar fora da aba Mapa se a bateria pesar.
+  if (navigator.geolocation) {
+    const eu = new maplibregl.Marker({ element: Object.assign(document.createElement('div'), { className: 'eu' }) });
+    navigator.geolocation.watchPosition(p => eu.setLngLat([p.coords.longitude, p.coords.latitude]).addTo(mapa),
+      () => {}, { enableHighAccuracy: true, maximumAge: 10000 });
+  }
 }
 
 async function abrirMapa(foco) {
@@ -637,7 +699,7 @@ function montar() {
   $('#login').hidden = true; $('#app').hidden = false; $('#nav').hidden = false;
   document.documentElement.style.setProperty('--top', $('header').offsetHeight + 'px');
   $('#fcat').innerHTML = '<option value="">Categoria</option>' + Object.keys(CATS).map(c => `<option>${c}</option>`).join('');
-  $('#legitens').innerHTML = `<span><i style="background:#111"></i>hospedagem</span>` + Object.entries(CATS).map(([c, cor]) => `<span><i style="background:${cor}"></i>${c}</span>`).join('');
+  renderLegenda(); $('#legitens').onclick = clicarLegenda; $('#guia').onclick = clicarGuia;
   $('#baixar').onclick = baixarMapas;
   renderHoje(); renderRoteiro();
   aba(store.get('aba', 'hoje'));

@@ -65,7 +65,13 @@ h3.grupo { margin-top: 18px; } h3.grupo small { font-weight: 400; }
 #map { position: absolute; inset: 0; }
 #legenda { position: absolute; z-index: 2; left: 8px; bottom: 8px; background: var(--card); border-radius: 8px; box-shadow: 0 1px 4px #0002; font-size: 13px; max-width: 60%; }
 #legenda summary { padding: 5px 10px; } #legenda div { padding: 0 10px 8px; }
-#legenda span { display: flex; align-items: center; gap: 6px; margin: 2px 0; } #legenda i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid #fff; flex: none; }
+#legitens { max-height: 55vh; overflow-y: auto; }
+#guia { position: absolute; z-index: 3; top: 52px; left: 8px; right: 8px; max-height: calc(100% - 70px); overflow-y: auto; background: var(--card); color: var(--ink); border-radius: 10px; box-shadow: 0 2px 10px #0004; padding: 10px 14px; font-size: 14px; }
+#guia h3 { margin: 6px 0; } #guia h4 { margin: 12px 0 2px; } #guia p { margin: 4px 0; } #guia a { color: var(--red); text-decoration: underline; cursor: pointer; } #guia .btn { float: right; } #guia .mute { color: var(--mute); font-size: 12px; }
+.eu { width: 16px; height: 16px; border-radius: 50%; background: #1a73e8; border: 3px solid #fff; box-shadow: 0 0 0 6px #1a73e833, 0 1px 3px #0006; }
+#legenda button { display: flex; align-items: center; gap: 6px; width: 100%; padding: 4px 0; border: 0; background: none; font: inherit; color: var(--ink); text-align: left; }
+#legenda button.off { opacity: .35; text-decoration: line-through; } #legenda p { display: flex; gap: 14px; margin: 4px 0 0; border-top: 1px solid var(--line); } #legenda p button { width: auto; color: var(--red); }
+#legenda i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid #fff; flex: none; }
 .maplibregl-popup-content { color: #1d1d1f; font-size: 14px; max-height: 45vh; overflow-y: auto; } .maplibregl-popup-content p { margin: 4px 0; } .maplibregl-popup-content .btn { color: #1d1d1f; background: #fff; border-color: #ddd; }
 nav { position: fixed; z-index: 10; left: 0; right: 0; bottom: 0; height: calc(var(--nav) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); background: var(--card); border-top: 1px solid var(--line); display: flex; }
 nav button { flex: 1; border: 0; border-radius: 0; background: none; color: var(--mute); font-size: 12px; padding: 6px 0; display: flex; flex-direction: column; align-items: center; gap: 3px; }
@@ -100,7 +106,8 @@ nav button.on { color: var(--red); }
   <section id="mapa" hidden>
     <div id="mapabar"><select id="irpara"><option value="">Ir para…</option></select><button id="baixar" type="button">Baixar mapas</button><span id="mapamsg" hidden></span></div>
     <div id="map"></div>
-    <details id="legenda"><summary>Legenda</summary><div id="legitens"></div></details>
+    <details id="legenda"><summary>Filtro</summary><div id="legitens"></div></details>
+    <div id="guia" hidden></div>
   </section>
   <section id="locais" hidden>
     <div class="barra"><input id="busca" type="search" placeholder="Buscar local"><select id="fcat"><option value="">Categoria</option></select><select id="fcid"><option value="">Cidade</option></select></div>
