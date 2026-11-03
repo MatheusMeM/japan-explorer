@@ -1,0 +1,467 @@
+[
+ {
+  "nome": "Exposição Internacional de Laca",
+  "cidade": "Kanazawa",
+  "bairro": "Shiinoki Geihinkan",
+  "categoria": "museu",
+  "lat": 36.5627,
+  "lng": 136.6556,
+  "nota": "国際漆展・石川2026 · até 9/11",
+  "o_que": "Obras em laca do mundo todo. A laca é a tinta de seiva de árvore que dá o brilho das tigelas japonesas.",
+  "por_que": "Só hoje: feriado do Dia da Cultura (3/11).",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%97%E3%81%84%E3%81%AE%E3%81%8D%E8%BF%8E%E8%B3%93%E9%A4%A8",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E5%9B%BD%E9%9A%9B%E6%BC%86%E5%B1%95%20%E7%9F%B3%E5%B7%9D"
+  ]
+ },
+ {
+  "nome": "Museu Nacional de Artesanato",
+  "cidade": "Kanazawa",
+  "bairro": "Dewamachi",
+  "categoria": "museu",
+  "lat": 36.5596,
+  "lng": 136.6606,
+  "nota": "国立工芸館 · hoje grátis",
+  "o_que": "A exposição Design Chronicle tem entrada grátis hoje. Fica a 5 minutos a pé da Shiinoki.",
+  "por_que": "Só hoje: feriado do Dia da Cultura (3/11).",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9B%BD%E7%AB%8B%E5%B7%A5%E8%8A%B8%E9%A4%A8",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E5%9B%BD%E7%AB%8B%E5%B7%A5%E8%8A%B8%E9%A4%A8"
+  ]
+ },
+ {
+  "nome": "Cabeças de leão de Kaga",
+  "cidade": "Kanazawa",
+  "bairro": "Estação de Kanazawa",
+  "categoria": "museu",
+  "lat": 36.5781,
+  "lng": 136.6482,
+  "nota": "加賀獅子頭展示 · 8:30–15:00 · último dia · já visitado em 3/11",
+  "o_que": "Cabeças de leão das associações de dança da cidade. Você já passou pela estação. Se quiser voltar, vá antes das 15:00.",
+  "por_que": "Só hoje: feriado do Dia da Cultura (3/11).",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%A2%E9%A7%85%20%E9%BC%93%E9%96%80",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E5%8A%A0%E8%B3%80%E7%8D%85%E5%AD%90"
+  ]
+ },
+ {
+  "nome": "Kenroku-en",
+  "cidade": "Kanazawa",
+  "bairro": "Kenrokumachi",
+  "categoria": "natureza",
+  "lat": 36.5622,
+  "lng": 136.663,
+  "nota": "兼六園 · 8:00–17:00 · grátis hoje · já visitado em 3/11",
+  "o_que": "O jardim abre de graça hoje. Você já andou por ele.",
+  "por_que": "Só hoje: feriado do Dia da Cultura (3/11).",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%BC%E5%85%AD%E5%9C%92",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E5%85%BC%E5%85%AD%E5%9C%92"
+  ]
+ },
+ {
+  "nome": "Mercado Omicho",
+  "cidade": "Kanazawa",
+  "bairro": "Musashi",
+  "categoria": "comida",
+  "lat": 36.5717,
+  "lng": 136.6566,
+  "nota": "近江町市場 · 9:00–17:00",
+  "o_que": "Mercado de peixe da cidade. No feriado, só cerca de metade das lojas abre. As casas de peixe formam fila na hora do almoço.",
+  "por_que": "Comer e beber como morador.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%BF%91%E6%B1%9F%E7%94%BA%E5%B8%82%E5%A0%B4",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E8%BF%91%E6%B1%9F%E7%94%BA%E5%B8%82%E5%A0%B4%20%E3%83%A9%E3%83%B3%E3%83%81"
+  ]
+ },
+ {
+  "nome": "Kiguramachi",
+  "cidade": "Kanazawa",
+  "bairro": "perto de Katamachi",
+  "categoria": "bar",
+  "lat": 36.5612,
+  "lng": 136.6486,
+  "nota": "木倉町 · noite",
+  "o_que": "Ruas estreitas com izakayas, bares e casas de vinho de donos locais. Izakaya é um bar que serve comida em porções.",
+  "por_que": "Comer e beber como morador.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E5%80%89%E7%94%BA%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E6%9C%A8%E5%80%89%E7%94%BA%20%E5%B1%85%E9%85%92%E5%B1%8B"
+  ]
+ },
+ {
+  "nome": "Katamachi",
+  "cidade": "Kanazawa",
+  "bairro": "centro",
+  "categoria": "bar",
+  "lat": 36.5592,
+  "lng": 136.6485,
+  "nota": "片町 · 17:00 até tarde",
+  "o_que": "A zona mais agitada da noite. Bom lugar para ir de bar em bar.",
+  "por_que": "Comer e beber como morador.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%89%87%E7%94%BA%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E7%89%87%E7%94%BA%20%E9%87%91%E6%B2%A2%20%E9%A3%B2%E3%81%BF"
+  ]
+ },
+ {
+  "nome": "Rua Sanwa",
+  "cidade": "Kanazawa",
+  "bairro": "perto da estação",
+  "categoria": "bar",
+  "lat": 36.577,
+  "lng": 136.651,
+  "nota": "三和商店街 · noite",
+  "o_que": "Rua retrô com izakayas e bares pequenos de família.",
+  "por_que": "Comer e beber como morador.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%92%8C%E5%95%86%E5%BA%97%E8%A1%97%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E4%B8%89%E5%92%8C%E5%95%86%E5%BA%97%E8%A1%97%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "Fukumitsuya",
+  "cidade": "Kanazawa",
+  "bairro": "Ishibiki",
+  "categoria": "bar",
+  "lat": 36.5548,
+  "lng": 136.666,
+  "nota": "福光屋 · horário não confirmado",
+  "o_que": "A cervejaria de saquê mais antiga da cidade, de 1625. A loja tem degustação.",
+  "por_que": "Comer e beber como morador.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%85%89%E5%B1%8B%20%E9%87%91%E6%B2%A2%E5%BA%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E7%A6%8F%E5%85%89%E5%B1%8B%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "Kazuemachi",
+  "cidade": "Kanazawa",
+  "bairro": "Rio Asano",
+  "categoria": "bairro",
+  "lat": 36.5706,
+  "lng": 136.663,
+  "nota": "主計町茶屋街 · dia e noite",
+  "o_que": "Bairro antigo de casas de chá na beira do rio. É mais calmo que o Higashi Chaya.",
+  "por_que": "Bairro fora da rota turística.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%BB%E8%A8%88%E7%94%BA%E8%8C%B6%E5%B1%8B%E8%A1%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E4%B8%BB%E8%A8%88%E7%94%BA"
+  ]
+ },
+ {
+  "nome": "Ono",
+  "cidade": "Kanazawa",
+  "bairro": "noroeste, perto do mar",
+  "categoria": "bairro",
+  "lat": 36.6165,
+  "lng": 136.605,
+  "nota": "大野町 · dia",
+  "o_que": "Cerca de 40 empresas fazem shoyu ali. Alguns armazéns viraram galerias e casas de chá. Tem a fábrica Yamato Shoyu, um museu de bonecos mecânicos e leilão de peixe à tarde. Vá de ônibus ou táxi.",
+  "por_que": "Bairro fora da rota turística.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%A2%20%E5%A4%A7%E9%87%8E%E7%94%BA%20%E9%86%A4%E6%B2%B9%E8%94%B5",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E9%87%91%E6%B2%A2%20%E5%A4%A7%E9%87%8E%20%E9%86%A4%E6%B2%B9"
+  ]
+ },
+ {
+  "nome": "GROOVY",
+  "cidade": "Kanazawa",
+  "bairro": "Tatemachi 96",
+  "categoria": "compras",
+  "lat": 36.5566,
+  "lng": 136.653,
+  "nota": "古着屋GROOVY · feriado 11:00–19:00",
+  "o_que": "Roupa usada dos Estados Unidos, do comum ao vintage. A loja também vende peças que ela mesma refaz.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E7%9D%80%E5%B1%8BGROOVY%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E5%8F%A4%E7%9D%80%E5%B1%8BGROOVY%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "fuzz city",
+  "cidade": "Kanazawa",
+  "bairro": "Tatemachi 16",
+  "categoria": "compras",
+  "lat": 36.5585,
+  "lng": 136.6508,
+  "nota": "古着屋 fuzz city · a partir das 12:00 · todo dia",
+  "o_que": "Vintage dos Estados Unidos e da Europa e roupa de esporte. É a loja irmã da GROOVY.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=fuzz%20city%20%E9%87%91%E6%B2%A2%20%E7%AB%AA%E7%94%BA",
+  "fontes": [
+   "https://www.tiktok.com/search?q=fuzz%20city%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "Titti Vintage",
+  "cidade": "Kanazawa",
+  "bairro": "Tatemachi 43",
+  "categoria": "compras",
+  "lat": 36.5578,
+  "lng": 136.6517,
+  "nota": "チッチヴィンテージ · 11:00–20:00 · todo dia",
+  "o_que": "Roupa, marcas de luxo e móveis antigos. A loja diz que é um dos maiores brechós da região.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Titti%20Vintage%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=Titti%20Vintage%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "Lily Rose",
+  "cidade": "Kanazawa",
+  "bairro": "Satomi-cho",
+  "categoria": "compras",
+  "lat": 36.5562,
+  "lng": 136.6515,
+  "nota": "古着屋リリーローズ · 12:00–19:30 · fecha quarta",
+  "o_que": "Só roupa feminina japonesa, com vestidos, saias e bijuteria vintage.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E7%9D%80%E5%B1%8B%E3%83%AA%E3%83%AA%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%BA%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%83%AA%E3%83%AA%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%BA%20%E5%8F%A4%E7%9D%80%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "Super 2nd Street Shimono",
+  "cidade": "Kanazawa",
+  "bairro": "Toita-nishi · oeste",
+  "categoria": "compras",
+  "lat": 36.587,
+  "lng": 136.6035,
+  "nota": "スーパーセカンドストリート金沢示野店 · todo dia",
+  "o_que": "A loja principal da rede de reúso 2nd STREET na cidade. Vende roupa, objetos e eletrônicos usados por preço baixo. Vá de táxi.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E9%87%91%E6%B2%A2%E7%A4%BA%E9%87%8E%E5%BA%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "2nd STREET Kuratsuki",
+  "cidade": "Kanazawa",
+  "bairro": "Tomizu · norte",
+  "categoria": "compras",
+  "lat": 36.596,
+  "lng": 136.628,
+  "nota": "セカンドストリート鞍月店 · 10:00–20:00",
+  "o_que": "Loja da mesma rede de reúso. Fica no mesmo bairro da livraria Kanazawa Beans. Vá de táxi.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E9%9E%8D%E6%9C%88%E5%BA%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%20%E9%9E%8D%E6%9C%88"
+  ]
+ },
+ {
+  "nome": "Oyoyo Shorin Shintatemachi",
+  "cidade": "Kanazawa",
+  "bairro": "Shintatemachi",
+  "categoria": "compras",
+  "lat": 36.5559,
+  "lng": 136.6562,
+  "nota": "オヨヨ書林 新竪町店 · 11:00–19:00 · fecha quarta",
+  "o_que": "Sebo de livros de arte, design, cinema, música e cultura alternativa.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AA%E3%83%A8%E3%83%A8%E6%9B%B8%E6%9E%97%20%E6%96%B0%E7%AB%AA%E7%94%BA%E5%BA%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%82%AA%E3%83%A8%E3%83%A8%E6%9B%B8%E6%9E%97"
+  ]
+ },
+ {
+  "nome": "Oyoyo Shorin Seseragi",
+  "cidade": "Kanazawa",
+  "bairro": "Nagamachi",
+  "categoria": "compras",
+  "lat": 36.5622,
+  "lng": 136.6503,
+  "nota": "オヨヨ書林 せせらぎ通り店 · tarde até 19:00 · fecha segunda",
+  "o_que": "Fica num prédio de 1917 na beira de um canal. Os livros são diferentes dos livros da outra loja.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AA%E3%83%A8%E3%83%A8%E6%9B%B8%E6%9E%97%20%E3%81%9B%E3%81%9B%E3%82%89%E3%81%8E%E9%80%9A%E3%82%8A%E5%BA%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%82%AA%E3%83%A8%E3%83%A8%E6%9B%B8%E6%9E%97%20%E3%81%9B%E3%81%9B%E3%82%89%E3%81%8E"
+  ]
+ },
+ {
+  "nome": "Antique Vermeer",
+  "cidade": "Kanazawa",
+  "bairro": "Shintatemachi",
+  "categoria": "compras",
+  "lat": 36.5556,
+  "lng": 136.6548,
+  "nota": "アンティーク フェルメール · horário não confirmado",
+  "o_que": "Objetos antigos raros da Inglaterra.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AF%20%E3%83%95%E3%82%A7%E3%83%AB%E3%83%A1%E3%83%BC%E3%83%AB%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%83%95%E3%82%A7%E3%83%AB%E3%83%A1%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AF%20%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "Omura Kobutsuten",
+  "cidade": "Kanazawa",
+  "bairro": "Hyotan-machi",
+  "categoria": "compras",
+  "lat": 36.5745,
+  "lng": 136.6575,
+  "nota": "大村古物店 · 9:00–19:00",
+  "o_que": "Antiquário de 1884 com louça de chá, laca e peças de artistas. Às vezes fecha sem aviso: telefone antes.",
+  "por_que": "Brechó, reúso ou sebo.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%9D%91%E5%8F%A4%E7%89%A9%E5%BA%97%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E5%A4%A7%E6%9D%91%E5%8F%A4%E7%89%A9%E5%BA%97"
+  ]
+ },
+ {
+  "nome": "Kami Bunbo Araki",
+  "cidade": "Kanazawa",
+  "bairro": "Omicho Ichibakan, térreo",
+  "categoria": "compras",
+  "lat": 36.5711,
+  "lng": 136.6554,
+  "nota": "紙文房あらき · 8:30–19:00",
+  "o_que": "Loja de papel de 1827, dentro do Omicho. Vende washi, papel especial e kits de origami. Washi é o papel japonês feito à mão. O dono esculpe carimbos de borracha que fazem sucesso.",
+  "por_que": "Papelaria.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%B4%99%E6%96%87%E6%88%BF%E3%81%82%E3%82%89%E3%81%8D",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E7%B4%99%E6%96%87%E6%88%BF%E3%81%82%E3%82%89%E3%81%8D"
+  ]
+ },
+ {
+  "nome": "Kanazawa Beans Meibundo",
+  "cidade": "Kanazawa",
+  "bairro": "Kuratsuki · norte",
+  "categoria": "compras",
+  "lat": 36.603,
+  "lng": 136.627,
+  "nota": "金沢ビーンズ明文堂書店 · horário não confirmado",
+  "o_que": "Livraria grande com canetas-tinteiro da Sailor. Combine com a 2nd STREET Kuratsuki.",
+  "por_que": "Papelaria.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%A2%E3%83%93%E3%83%BC%E3%83%B3%E3%82%BA%E6%98%8E%E6%96%87%E5%A0%82%E6%9B%B8%E5%BA%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E9%87%91%E6%B2%A2%E3%83%93%E3%83%BC%E3%83%B3%E3%82%BA"
+  ]
+ },
+ {
+  "nome": "GIO",
+  "cidade": "Kanazawa",
+  "bairro": "Shiinoki Geihinkan, térreo",
+  "categoria": "compras",
+  "lat": 36.5627,
+  "lng": 136.657,
+  "nota": "セレクトショップGIO · 10:00–17:00",
+  "o_que": "Artesanato de Ishikawa e de todo o Japão. Fica no mesmo prédio da exposição de laca.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%83%AC%E3%82%AF%E3%83%88%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97GIO%20%E3%81%97%E3%81%84%E3%81%AE%E3%81%8D%E8%BF%8E%E8%B3%93%E9%A4%A8",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%81%97%E3%81%84%E3%81%AE%E3%81%8D%E8%BF%8E%E8%B3%93%E9%A4%A8%20GIO"
+  ]
+ },
+ {
+  "nome": "Factory Zoomer",
+  "cidade": "Kanazawa",
+  "bairro": "Hirosaka",
+  "categoria": "compras",
+  "lat": 36.5605,
+  "lng": 136.6548,
+  "nota": "ファクトリーズーマ · horário não confirmado",
+  "o_que": "Galeria da artista do vidro Kazumi Tsuji. Às vezes a artista atende na loja.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%BC%E3%83%9E%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E8%BE%BB%E5%92%8C%E7%BE%8E%20%E3%82%AC%E3%83%A9%E3%82%B9"
+  ]
+ },
+ {
+  "nome": "Kura OKURA",
+  "cidade": "Kanazawa",
+  "bairro": "Korinbo",
+  "categoria": "compras",
+  "lat": 36.5598,
+  "lng": 136.6518,
+  "nota": "くらふと&ぎゃらりぃ OKURA · 11:00–17:00",
+  "o_que": "Fica num depósito de uma casa de mais de 70 anos. Cerâmica, vidro e laca de artistas locais, a partir de ¥1.100.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8F%E3%82%89%E3%81%B5%E3%81%A8%26%E3%81%8E%E3%82%83%E3%82%89%E3%82%8A%E3%81%83%20OKURA",
+  "fontes": [
+   "https://www.tiktok.com/search?q=OKURA%20%E9%87%91%E6%B2%A2%20%E9%A6%99%E6%9E%97%E5%9D%8A"
+  ]
+ },
+ {
+  "nome": "Craft Kanazawa",
+  "cidade": "Kanazawa",
+  "bairro": "Katamachi",
+  "categoria": "compras",
+  "lat": 36.558,
+  "lng": 136.6488,
+  "nota": "クラフト金沢 · 11:00–18:00",
+  "o_que": "Peças de artesãos e artistas locais. A loja monta uma pequena exposição por mês.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E9%87%91%E6%B2%A2%20%E7%89%87%E7%94%BA",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E9%87%91%E6%B2%A2"
+  ]
+ },
+ {
+  "nome": "Kutani Moroeya",
+  "cidade": "Kanazawa",
+  "bairro": "Katamachi",
+  "categoria": "compras",
+  "lat": 36.56,
+  "lng": 136.6502,
+  "nota": "九谷焼諸江屋 · 9:00–20:00",
+  "o_que": "Cerâmica Kutani de artistas jovens e de mestres. Kutani é a cerâmica colorida da região.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E8%B0%B7%E7%84%BC%E8%AB%B8%E6%B1%9F%E5%B1%8B%20%E7%89%87%E7%94%BA",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E4%B9%9D%E8%B0%B7%E7%84%BC%20%E8%AB%B8%E6%B1%9F%E5%B1%8B"
+  ]
+ },
+ {
+  "nome": "KiKU",
+  "cidade": "Kanazawa",
+  "bairro": "Shintatemachi",
+  "categoria": "compras",
+  "lat": 36.5547,
+  "lng": 136.6566,
+  "nota": "KiKU · 11:00–20:00",
+  "o_que": "Anéis e joias de um artista do metal de Kanazawa.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=KiKU%20%E6%96%B0%E7%AB%AA%E7%94%BA",
+  "fontes": [
+   "https://www.tiktok.com/search?q=KiKU%20%E6%96%B0%E7%AB%AA%E7%94%BA%20%E7%AB%B9%E4%BF%A3%E5%8B%87%E5%A3%B1"
+  ]
+ },
+ {
+  "nome": "Galerie Noyau",
+  "cidade": "Kanazawa",
+  "bairro": "Sugiura-machi",
+  "categoria": "compras",
+  "lat": 36.5566,
+  "lng": 136.6542,
+  "nota": "ギャルリ・ノワイヨ · 12:00–19:00 · abre hoje",
+  "o_que": "Cerâmica, vidro e couro de artistas jovens. A loja fecha só na 2ª terça do mês, então abre hoje.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AE%E3%83%A3%E3%83%AB%E3%83%AA%E3%83%BB%E3%83%8E%E3%83%AF%E3%82%A4%E3%83%A8%20%E9%87%91%E6%B2%A2",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E3%82%AE%E3%83%A3%E3%83%AB%E3%83%AA%E3%83%8E%E3%83%AF%E3%82%A4%E3%83%A8"
+  ]
+ },
+ {
+  "nome": "Tamakushige",
+  "cidade": "Kanazawa",
+  "bairro": "Higashi Chaya",
+  "categoria": "compras",
+  "lat": 36.5727,
+  "lng": 136.6663,
+  "nota": "玉匣 · horário não confirmado",
+  "o_que": "Loja numa antiga casa de chá. Vende peças de artesãos jovens de Kanazawa. O bairro é turístico, mas a loja tem foco em artistas novos.",
+  "por_que": "Loja de artistas locais pouco conhecidos.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E5%8C%A3%20%E3%81%B2%E3%81%8C%E3%81%97%E8%8C%B6%E5%B1%8B%E8%A1%97",
+  "fontes": [
+   "https://www.tiktok.com/search?q=%E7%8E%89%E5%8C%A3%20%E9%87%91%E6%B2%A2"
+  ]
+ }
+]
