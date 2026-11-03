@@ -51,6 +51,8 @@ async function decifrar(senha) {
 async function entrar(senha) {
   try { D = await decifrar(senha); }
   catch (e) { return e.name === 'OperationError' ? 'Senha errada.' : `Não consegui carregar os dados (${e.message}). Abra uma vez com internet.`; }
+  // Locais extras versionados no repositório (importar/locais.json), fora do dados.enc: entram sem importação manual.
+  D.extras = await fetch('importar/locais.json').then(r => r.ok ? r.json() : []).catch(() => []);
   store.set('senha', senha);
   return null;
 }
@@ -82,7 +84,7 @@ function normalizar(r, importado = false) {
 
 function locais() {
   const m = new Map();
-  for (const l of [...D.locais, ...store.get('locais_importados', [])]) m.set(l.id, l);
+  for (const l of [...D.locais, ...D.extras, ...store.get('locais_importados', [])]) m.set(l.id, l);
   return [...m.values()];
 }
 
@@ -695,6 +697,7 @@ async function exportar() {
 // ---------- início ----------
 function montar() {
   D.locais = (D.locais || []).map(r => normalizar(r)).filter(Boolean);
+  D.extras = (Array.isArray(D.extras) ? D.extras : []).map(r => normalizar(r)).filter(Boolean);
   D.hoteis = D.hoteis || [];
   $('#login').hidden = true; $('#app').hidden = false; $('#nav').hidden = false;
   document.documentElement.style.setProperty('--top', $('header').offsetHeight + 'px');
