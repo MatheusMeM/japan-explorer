@@ -463,5 +463,714 @@
   "fontes": [
    "https://www.tiktok.com/search?q=%E7%8E%89%E5%8C%A3%20%E9%87%91%E6%B2%A2"
   ]
+ },
+ {
+  "nome": "Rei-chan",
+  "cidade": "Hiroshima",
+  "bairro": "Estação de Hiroshima, ekie 1F",
+  "categoria": "comida",
+  "lat": 34.3976328,
+  "lng": 132.4768777,
+  "nota": "麗ちゃん · 11:00–22:00 todo dia",
+  "o_que": "Okonomiyaki no estilo de Hiroshima, feito na chapa na sua frente. Você pede e paga na máquina antes de sentar. A fila é longa no almoço.",
+  "por_que": "Os moradores usam esta casa como régua de okonomiyaki.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E3%81%A1%E3%82%83%E3%82%93%20%E5%BA%83%E5%B3%B6%E9%A7%85%20ekie&query_place_id=ChIJmzvTd1SfWjUR2g2q4LUHBlI",
+  "fontes": [
+   "https://tabimaniajapan.com/?p=7449"
+  ]
+ },
+ {
+  "nome": "Mitchan Sohonten Hatchobori",
+  "cidade": "Hiroshima",
+  "bairro": "Hatchobori",
+  "categoria": "comida",
+  "lat": 34.3957125,
+  "lng": 132.4635489,
+  "nota": "みっちゃん総本店 · 11:30–14:30 e 17:30–21:00",
+  "o_que": "Okonomiyaki em camadas com macarrão. A casa anota o pedido na fila.",
+  "por_que": "A casa ajudou a criar o estilo de Hiroshima.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%BF%E3%81%A3%E3%81%A1%E3%82%83%E3%82%93%E7%B7%8F%E6%9C%AC%E5%BA%97%20%E5%85%AB%E4%B8%81%E5%A0%80%E6%9C%AC%E5%BA%97&query_place_id=ChIJfS4-xgeiWjUR1J-uIF_hPns",
+  "fontes": [
+   "https://www.airbnb.com/things-to-do/places/923597"
+  ]
+ },
+ {
+  "nome": "King-ken Hondori",
+  "cidade": "Hiroshima",
+  "bairro": "Hondori",
+  "categoria": "comida",
+  "lat": 34.392462,
+  "lng": 132.4596557,
+  "nota": "キング軒 · 11:00–22:00 todo dia",
+  "o_que": "Tantanmen sem caldo, prato criado em Hiroshima. Você coloca o dinheiro na máquina, escolhe a pimenta e mexe bem antes de comer.",
+  "por_que": "Prato que só existe aqui. Fica a 2 minutos do hotel.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AD%E3%83%B3%E3%82%B0%E8%BB%92%20%E6%9C%AC%E9%80%9A%E5%BA%97%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJ2yqs-Q6iWjURKR9lngzRLz8",
+  "fontes": [
+   "https://japanactivity.com/best-hiroshima-ramen-and-tsukemen-shops"
+  ]
+ },
+ {
+  "nome": "Bakudanya Honten",
+  "cidade": "Hiroshima",
+  "bairro": "Shintenchi",
+  "categoria": "comida",
+  "lat": 34.3914486,
+  "lng": 132.4625003,
+  "nota": "ばくだん屋 本店 · 11:30–14:30 e 17:00–21:30 · fecha na quarta",
+  "o_que": "Tsukemen de Hiroshima: macarrão frio com molho apimentado. Você escolhe o nível de pimenta. Custa menos de ¥1.000.",
+  "por_que": "Prato que só existe aqui.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B0%E3%81%8F%E3%81%A0%E3%82%93%E5%B1%8B%20%E6%9C%AC%E5%BA%97%20%E5%BA%83%E5%B3%B6%20%E6%96%B0%E5%A4%A9%E5%9C%B0&query_place_id=ChIJ_QXSfQ-iWjURx-_0gXHDpRE",
+  "fontes": [
+   "https://tablejourney.com/japan/hiroshima/budget-eating/musashibo/"
+  ]
+ },
+ {
+  "nome": "Ongaku Shokudo ONDO",
+  "cidade": "Hiroshima",
+  "bairro": "Tanaka-machi",
+  "categoria": "bar",
+  "lat": 34.3883756,
+  "lng": 132.4643673,
+  "nota": "音楽食堂ONDO · ter–qui 15:00–2:00 · sex–sáb 22:00–5:00 · fecha no domingo",
+  "o_que": "Bar no subsolo do prédio Ondo Onsen. Toca house, dub, balearic e disco. Sistema de som sob medida: caixas de 3 vias da 最高音響, mixer UREI 1620. Sexta 13/11: festa Circle, 22:00–5:00, ¥1.500.",
+  "por_que": "Primeira aposta para música eletrônica. Confira o Instagram ongakushokudo_ondo antes de ir.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%9F%B3%E6%A5%BD%E9%A3%9F%E5%A0%82ONDO%20%E5%BA%83%E5%B3%B6%20%E7%94%B0%E4%B8%AD%E7%94%BA&query_place_id=ChIJN9wpMgWiWjURf4ROF8CLU5A",
+  "fontes": [
+   "https://www.ongakushokudoondo.com/about",
+   "https://ra.co/events/2559165"
+  ]
+ },
+ {
+  "nome": "Enjoint Bar Cover",
+  "cidade": "Hiroshima",
+  "bairro": "Nagarekawa",
+  "categoria": "bar",
+  "lat": 34.3892535,
+  "lng": 132.4631484,
+  "nota": "エンジョイントバー カバー · qua–sáb 22:00–5:00",
+  "o_que": "Bar de DJ com 11 lugares, no 2º andar do prédio Dai-5 Hakubishi. Toca house e eletrônica. Sem couvert, uma bebida obrigatória.",
+  "por_que": "Segunda parada depois do ONDO. Instagram: cover.ton.7.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=ENJOINT%20BAR%20COVER%20%E5%BA%83%E5%B3%B6%20%E6%B5%81%E5%B7%9D%E7%94%BA&query_place_id=ChIJgRJZK6ajWjURdU4D0IGeLFY",
+  "fontes": [
+   "https://enjoint-space.com/bar"
+  ]
+ },
+ {
+  "nome": "Bar Edge",
+  "cidade": "Hiroshima",
+  "bairro": "Nagarekawa",
+  "categoria": "bar",
+  "lat": 34.3892012,
+  "lng": 132.4634473,
+  "nota": "バー エッジ · ter–qui e dom 21:00–3:00 · sex–sáb 21:00–5:00 · fecha na segunda",
+  "o_que": "Bar no subsolo com house, techno e club jazz. Algumas festas têm VJ. Sábado 14/11 é noite de indie rock.",
+  "por_que": "Terceira opção de eletrônica. Instagram: bar_edge.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=bar%20edge%20%E5%BA%83%E5%B3%B6%20%E6%B5%81%E5%B7%9D%E7%94%BA&query_place_id=ChIJZ91NRAWiWjURt2GIxZSwpgE",
+  "fontes": [
+   "https://gethiroshima.com/venue/bar-edge/"
+  ]
+ },
+ {
+  "nome": "Organza",
+  "cidade": "Hiroshima",
+  "bairro": "Tokaichi",
+  "categoria": "bar",
+  "lat": 34.3968477,
+  "lng": 132.4491167,
+  "nota": "ヲルガン座 · ter–sex 17:30–24:00 · sáb–dom 11:30–24:00 · fecha na segunda",
+  "o_que": "Café-teatro no 2º andar com shows, cabaré e burlesco. Sexta 13/11 tem festa burlesca. Sem eletrônica nesta semana.",
+  "por_que": "O lugar mais alternativo da cidade.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%B2%E3%83%AB%E3%82%AC%E3%83%B3%E5%BA%A7%20%E5%BA%83%E5%B3%B6%20%E5%8D%81%E6%97%A5%E5%B8%82%E7%94%BA&query_place_id=ChIJM-arynOiWjURK5wKdoCubhc",
+  "fontes": [
+   "https://organ-za.com/schedule_now/"
+  ]
+ },
+ {
+  "nome": "Ekinishi",
+  "cidade": "Hiroshima",
+  "bairro": "Osuga-cho",
+  "categoria": "bairro",
+  "lat": 34.3981758,
+  "lng": 132.4728032,
+  "nota": "エキニシ · bares abrem à noite",
+  "o_que": "Becos com bares pequenos e retrô, a oeste da saída sul da estação. Quase todos têm só balcão.",
+  "por_que": "Bairro de bar frequentado por moradores.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A8%E3%82%AD%E3%83%8B%E3%82%B7%20%E5%BA%83%E5%B3%B6%20%E5%A4%A7%E9%A0%88%E8%B3%80%E7%94%BA&query_place_id=ChIJGxyfVpmfWjURA2GEqMQFCE4",
+  "fontes": [
+   "https://www.magical-trip.com/media/hiroshima-nightlife-2025-the-ultimate-locals-guide-to-top-bars-izakaya-local-food-night-experiences/"
+  ]
+ },
+ {
+  "nome": "Yokogawa",
+  "cidade": "Hiroshima",
+  "bairro": "Yokogawa",
+  "categoria": "bairro",
+  "lat": 34.4100844,
+  "lng": 132.4522535,
+  "nota": "横川商店街",
+  "o_que": "Bairro com seis ruas de comércio antigas, murais, cinema de arte e casas de show. Poucos turistas.",
+  "por_que": "Bairro local. Combine com a loja Takeda e o Yokogawa Cinema.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A8%AA%E5%B7%9D%E5%95%86%E5%BA%97%E8%A1%97%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJSSfhaJiYWjURnZU7zwTTloQ",
+  "fontes": [
+   "https://www.magical-trip.com/media/hiroshima-nightlife-2025-the-ultimate-locals-guide-to-top-bars-izakaya-local-food-night-experiences/"
+  ]
+ },
+ {
+  "nome": "Festival de bar em bar de Takanobashi",
+  "cidade": "Hiroshima",
+  "bairro": "Takanobashi",
+  "categoria": "bairro",
+  "lat": 34.3836077,
+  "lng": 132.4525799,
+  "nota": "タカノ橋・千田 はしご酒祭 · 11 e 12/11",
+  "o_que": "Você escolhe 3 entre 21 bares e restaurantes das ruas Takanobashi e Senda.",
+  "por_que": "Só em 11 e 12/11. Programa de morador.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BF%E3%82%AB%E3%83%8E%E6%A9%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJEUqg4z-iWjURgBG4AMXqS6Y",
+  "fontes": [
+   "https://www.walkerplus.com/event_list/ar0834/"
+  ]
+ },
+ {
+  "nome": "Kagura de quarta",
+  "cidade": "Hiroshima",
+  "bairro": "Otemachi",
+  "categoria": "experiência",
+  "lat": 34.3945052,
+  "lng": 132.4557455,
+  "nota": "広島県民文化センター · qua 11/11 · portas 18:00 · início 19:00 · ¥1.500 na porta",
+  "o_que": "Teatro-dança com máscaras, demônios e troca rápida de figurino. Dura 45 minutos, com legenda em inglês. Hoje: grupo Tsunami, peça Jinrin. Venda no saguão a partir das 18:00, com dinheiro ou cartão. Bastidores: ¥3.000, 20 vagas, pergunte no saguão.",
+  "por_que": "Só na quarta. Fica a 5 minutos do hotel.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BA%83%E5%B3%B6%E7%9C%8C%E6%B0%91%E6%96%87%E5%8C%96%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&query_place_id=ChIJT-HiVgyiWjURyuSTDqbsW1I",
+  "fontes": [
+   "https://www.rccbc.co.jp/event/kagura/"
+  ]
+ },
+ {
+  "nome": "Museu da Mazda",
+  "cidade": "Hiroshima",
+  "bairro": "Mukainada",
+  "categoria": "experiência",
+  "lat": 34.377808,
+  "lng": 132.5038756,
+  "nota": "マツダミュージアム · seg–sex · tour em inglês 14:15–16:15 · grátis · só com reserva",
+  "o_que": "Visita guiada com linha de montagem. A reserva fecha 2 dias antes. O ponto de encontro é o saguão da sede, a 5 minutos da estação JR Mukainada.",
+  "por_que": "Para ir na sexta 13/11, reserve em 11/11.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%83%84%E3%83%80%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJ2S4aVYWhWjURMlS9g-taeQ4",
+  "fontes": [
+   "https://www.mazda.com/ja/experience/museum/",
+   "https://www2.mazda.com/ja/about/museum/reservations/"
+  ]
+ },
+ {
+  "nome": "Hiroshima Ramen Stadium",
+  "cidade": "Hiroshima",
+  "bairro": "Motomachi",
+  "categoria": "experiência",
+  "lat": 34.3970124,
+  "lng": 132.4549723,
+  "nota": "ひろしまラーメンスタジアム · 13 a 24/11 · Gate Park Plaza",
+  "o_que": "Feira com lojas famosas de ramen do Japão inteiro.",
+  "por_que": "Começa na sexta 13/11.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%82%8D%E3%81%97%E3%81%BE%E3%82%B2%E3%83%BC%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%E3%83%97%E3%83%A9%E3%82%B6&query_place_id=ChIJB48n4LujWjURcu9k60VQG78",
+  "fontes": [
+   "https://www.walkerplus.com/event_list/ar0834/"
+  ]
+ },
+ {
+  "nome": "Salon Cinema",
+  "cidade": "Hiroshima",
+  "bairro": "Hatchobori",
+  "categoria": "experiência",
+  "lat": 34.3946077,
+  "lng": 132.4620807,
+  "nota": "サロンシネマ · ¥1.800 · última sessão ¥1.300",
+  "o_que": "Cinema de arte no 8º andar do prédio Toei Plaza, com poltronas largas. Filmes sem legenda em inglês.",
+  "por_que": "Cinema independente local.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%AD%E3%83%B3%E3%82%B7%E3%83%8D%E3%83%9E%20%E5%BA%83%E5%B3%B6%20%E5%85%AB%E4%B8%81%E5%A0%80&query_place_id=ChIJwawgowiiWjUR8aX0EzSjESs",
+  "fontes": [
+   "https://johakyu.co.jp/schedule.html"
+  ]
+ },
+ {
+  "nome": "Hatchoza",
+  "cidade": "Hiroshima",
+  "bairro": "Ebisu-cho",
+  "categoria": "experiência",
+  "lat": 34.3934218,
+  "lng": 132.4630477,
+  "nota": "八丁座 · ¥1.800 · última sessão ¥1.300",
+  "o_que": "Cinema de arte no 8º andar da loja Fukuya. Quinta 12/11: Odisseia em película 35 mm, 18:00–20:52.",
+  "por_que": "Sessão em película.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%81%E5%BA%A7%20%E5%BA%83%E5%B3%B6%20%E7%A6%8F%E5%B1%8B&query_place_id=ChIJ9xD8AQaiWjURJkTLLzF2Wew",
+  "fontes": [
+   "https://johakyu.co.jp/schedule.html"
+  ]
+ },
+ {
+  "nome": "Yokogawa Cinema",
+  "cidade": "Hiroshima",
+  "bairro": "Yokogawa",
+  "categoria": "experiência",
+  "lat": 34.4101047,
+  "lng": 132.4520656,
+  "nota": "横川シネマ · sala única",
+  "o_que": "Cinema de arte de bairro. Quinta 12/11: Il dono 14:40, Le quattro volte 16:20.",
+  "por_que": "Cinema pequeno em bairro sem turista.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A8%AA%E5%B7%9D%E3%82%B7%E3%83%8D%E3%83%9E%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJU5HdaJiYWjURtFVvhTsZGPo",
+  "fontes": [
+   "https://yokogawa-cine.jugem.jp/"
+  ]
+ },
+ {
+  "nome": "Museu de Arte Contemporânea de Hiroshima",
+  "cidade": "Hiroshima",
+  "bairro": "Hijiyama",
+  "categoria": "museu",
+  "lat": 34.3861254,
+  "lng": 132.4731744,
+  "nota": "広島市現代美術館 · 10:00–17:00 · entrada até 16:30 · fecha na segunda · ¥1.100",
+  "o_que": "Museu no alto do parque Hijiyama. Em cartaz: Chieo Senzaki, cerca de 100 obras. Bonde até Hijiyama-shita, depois 500 m de subida.",
+  "por_que": "Arte contemporânea com pouco público.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BA%83%E5%B3%B6%E5%B8%82%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E9%A4%A8&query_place_id=ChIJa20RZfihWjURFkeUDVipLAY",
+  "fontes": [
+   "https://www.hiroshima-moca.jp/"
+  ]
+ },
+ {
+  "nome": "Antiga agência do Banco do Japão",
+  "cidade": "Hiroshima",
+  "bairro": "Fukuromachi",
+  "categoria": "museu",
+  "lat": 34.3915352,
+  "lng": 132.4566468,
+  "nota": "旧日本銀行広島支店 · 10:00–17:00 · grátis segundo visitantes",
+  "o_que": "Prédio de 1936 que resistiu à bomba. Você entra nos cofres do subsolo. A página oficial cita fechamento temporário sem data: telefone 082-504-2500.",
+  "por_que": "Pouco visitado e a poucos minutos do hotel.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%97%A7%E6%97%A5%E6%9C%AC%E9%8A%80%E8%A1%8C%E5%BA%83%E5%B3%B6%E6%94%AF%E5%BA%97&query_place_id=ChIJDyzs-g2iWjURdXZuy-C9cRc",
+  "fontes": [
+   "https://www.city.hiroshima.lg.jp/tourism-culture/history/1026883/1026889/1020544.html"
+  ]
+ },
+ {
+  "nome": "Museu Yamato",
+  "cidade": "Hiroshima",
+  "bairro": "Kure",
+  "categoria": "museu",
+  "lat": 34.2411391,
+  "lng": 132.5558555,
+  "nota": "大和ミュージアム · 9:00–18:00 · fecha na terça · ¥1.000",
+  "o_que": "Museu naval com modelo 1:10 do encouraçado Yamato e sala de ciência e tecnologia. Reabriu em abril de 2026. Trem JR da linha Kure até a estação Kure.",
+  "por_que": "Para engenheiro. Combine com a Hard Off Saka, na mesma linha de trem.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%92%8C%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%20%E5%91%89&query_place_id=ChIJfcG1zCgIUDURuU8VYF3Gk2g",
+  "fontes": [
+   "https://yamato-museum.com/"
+  ]
+ },
+ {
+  "nome": "Museu de Transporte Numaji",
+  "cidade": "Hiroshima",
+  "bairro": "Chorakuji",
+  "categoria": "museu",
+  "lat": 34.470826,
+  "lng": 132.4285645,
+  "nota": "ヌマジ交通ミュージアム · 9:00–17:00 · fecha na segunda · ¥510",
+  "o_que": "Coleção de veículos, motores e maquetes. Exposição sobre pontes até 29/11. Astram Line até a estação Chorakuji.",
+  "por_que": "Para engenheiro.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8C%E3%83%9E%E3%82%B8%E4%BA%A4%E9%80%9A%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0&query_place_id=ChIJZ04isZ6ZWjUR4PglZUoPC20",
+  "fontes": [
+   "https://www.vehicle.city.hiroshima.jp/"
+  ]
+ },
+ {
+  "nome": "Mitaki-dera",
+  "cidade": "Hiroshima",
+  "bairro": "Mitaki",
+  "categoria": "templo",
+  "lat": 34.4201433,
+  "lng": 132.4384089,
+  "nota": "三瀧寺 · 8:00–17:00 · doação de ¥200",
+  "o_que": "Templo na encosta com cascatas, estátuas e folhas de outono. Trem JR da linha Kabe até a estação Mitaki, depois 20 minutos a pé.",
+  "por_que": "Quase vazio. Melhor de manhã.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E7%80%A7%E5%AF%BA%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJyyk7L4mYWjURZnuahBFJY_M",
+  "fontes": [
+   "https://dive-hiroshima.com/explore/3320/"
+  ]
+ },
+ {
+  "nome": "Nisshindo Camera",
+  "cidade": "Hiroshima",
+  "bairro": "Matoba-cho",
+  "categoria": "câmera",
+  "lat": 34.393069,
+  "lng": 132.474877,
+  "nota": "日進堂カメラ · 11:00–18:00 · fecha na quinta · só dinheiro",
+  "o_que": "Loja pequena só de câmeras usadas: Leica, Rollei, Hasselblad, Pentax, lentes e filme. O dono também conserta. O site tem um aviso de fechamento temporário: telefone 082-261-0707.",
+  "por_que": "Usados com preço abaixo de Tóquio e Quioto.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E9%80%B2%E5%A0%82%E3%82%AB%E3%83%A1%E3%83%A9%20%E5%BA%83%E5%B3%B6%20%E7%9A%84%E5%A0%B4%E7%94%BA&query_place_id=ChIJ2SmYeFWfWjURCL-ee_RfoVQ",
+  "fontes": [
+   "https://www.nisshindo.com/"
+  ]
+ },
+ {
+  "nome": "Camera no Saeda",
+  "cidade": "Hiroshima",
+  "bairro": "Otemachi",
+  "categoria": "câmera",
+  "lat": 34.3929483,
+  "lng": 132.4564972,
+  "nota": "カメラのサエダ 本通店 · 10:00–19:00 · fechada em 11/11",
+  "o_que": "Loja de câmera com seção de usados, filme 35 mm e 120, e revelação.",
+  "por_que": "A 1 minuto da parada Hondori.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%A1%E3%83%A9%E3%81%AE%E3%82%B5%E3%82%A8%E3%83%80%20%E6%9C%AC%E9%80%9A%E5%BA%97&query_place_id=ChIJLyBixw2iWjURqP96A67As_c",
+  "fontes": [
+   "https://www.saeda.co.jp/store/information/"
+  ]
+ },
+ {
+  "nome": "Book Off Super Bazaar Otemachi",
+  "cidade": "Hiroshima",
+  "bairro": "Otemachi",
+  "categoria": "compras",
+  "lat": 34.3921265,
+  "lng": 132.4563129,
+  "nota": "BOOKOFF SUPER BAZAAR · 10:00–22:00 todo dia",
+  "o_que": "Loja grande de usados: roupa, eletrônicos, consoles, discos, relógios e livros.",
+  "por_que": "Usados baratos a 3 minutos do hotel.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=BOOKOFF%20SUPER%20BAZAAR%20%E5%BA%83%E5%B3%B6%E5%A4%A7%E6%89%8B%E7%94%BA%E5%BA%97&query_place_id=ChIJ6X64ZxOiWjURF-SdU1rDBUE",
+  "fontes": [
+   "https://www.ekiten.jp/shop_1602825/"
+  ]
+ },
+ {
+  "nome": "Matsumoto Musen Parts",
+  "cidade": "Hiroshima",
+  "bairro": "Shoko Center",
+  "categoria": "compras",
+  "lat": 34.3686187,
+  "lng": 132.3944501,
+  "nota": "松本無線パーツ 広島店 · seg–sáb 10:00–18:00 · fecha no domingo",
+  "o_que": "Loja de componentes: semicondutores, conectores, transformadores, relés, kits, rádio amador e instrumentos de medição usados. A entrada fica nos fundos. De 40 a 50 minutos do centro.",
+  "por_que": "A única loja de peças eletrônicas da cidade.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E6%9C%AC%E7%84%A1%E7%B7%9A%E3%83%91%E3%83%BC%E3%83%84%20%E5%BA%83%E5%B3%B6%E5%BA%97%20%E5%95%86%E5%B7%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&query_place_id=ChIJ6dinSEujWjURHqD8_boyrkQ",
+  "fontes": [
+   "https://www.matsumoto-musen.co.jp/shop/index.html"
+  ]
+ },
+ {
+  "nome": "Hard Off Saka",
+  "cidade": "Hiroshima",
+  "bairro": "Saka",
+  "categoria": "compras",
+  "lat": 34.3400875,
+  "lng": 132.5091563,
+  "nota": "ハードオフ広島坂店 · 10:00–20:00 todo dia",
+  "o_que": "Usados com seção de sucata: áudio, PC, câmera, instrumento e ferramenta. Eletrônicos ficam no 2º andar. A 3 minutos da estação JR Saka.",
+  "por_que": "Fica no caminho para o Museu Yamato.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%BC%E3%83%89%E3%82%AA%E3%83%95%20%E5%BA%83%E5%B3%B6%E5%9D%82%E5%BA%97&query_place_id=ChIJd-RuQB6hWjURkA19DlW3Cys",
+  "fontes": [
+   "https://www.hardoff.co.jp/shop/detail/?p=101117"
+  ]
+ },
+ {
+  "nome": "Maruya",
+  "cidade": "Hiroshima",
+  "bairro": "Futabanosato",
+  "categoria": "compras",
+  "lat": 34.400942,
+  "lng": 132.4712421,
+  "nota": "マルヤ · 11:00–19:00 · fecha na quarta",
+  "o_que": "Instrumentos usados e vintage: guitarras, amplificadores, pedais e equipamento de áudio. Tem oficina.",
+  "por_que": "Loja de músico local, ao norte da estação.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%83%AB%E3%83%A4%20%E6%A5%BD%E5%99%A8%20%E5%BA%83%E5%B3%B6%20%E4%BA%8C%E8%91%89%E3%81%AE%E9%87%8C&query_place_id=ChIJN51Ry1WfWjURt_3p46bvWxw",
+  "fontes": [
+   "https://hiroshima-maruya.com/"
+  ]
+ },
+ {
+  "nome": "Kashoen",
+  "cidade": "Hiroshima",
+  "bairro": "Otemachi",
+  "categoria": "compras",
+  "lat": 34.392577,
+  "lng": 132.455892,
+  "nota": "熊野 華祥苑 · seg–sex 10:00–19:00 · sáb–dom 12:00–19:00",
+  "o_que": "Pincéis de Kumano feitos à mão, para maquiagem e pintura. Você testa na loja.",
+  "por_que": "Artesanato técnico da província.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=KASHOEN%20%E3%83%96%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%BA%83%E5%B3%B6%20%E5%A4%A7%E6%89%8B%E7%94%BA&query_place_id=ChIJoaxXlw2iWjURX88EtNjeQ_c",
+  "fontes": [
+   "https://dive-hiroshima.com/explore/3492/"
+  ]
+ },
+ {
+  "nome": "Stereo Records",
+  "cidade": "Hiroshima",
+  "bairro": "Nakamachi",
+  "categoria": "compras",
+  "lat": 34.3901592,
+  "lng": 132.4607401,
+  "nota": "STEREO RECORDS · 11:00–21:00 todo dia",
+  "o_que": "Loja de discos de vinil usados no 2º andar, com todos os gêneros.",
+  "por_que": "Loja de disco independente.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=STEREO%20RECORDS%20%E5%BA%83%E5%B3%B6%20%E4%B8%AD%E7%94%BA&query_place_id=ChIJ03Dq0A-iWjURn42DudrRvBQ",
+  "fontes": [
+   "https://morethanrelo.com/?p=43465"
+  ]
+ },
+ {
+  "nome": "Groovin' Record Station",
+  "cidade": "Hiroshima",
+  "bairro": "Kyobashi-cho",
+  "categoria": "compras",
+  "lat": 34.3956204,
+  "lng": 132.4719112,
+  "nota": "GROOVIN' · 10:00–19:00 todo dia",
+  "o_que": "Dois prédios: um de vinil e um de CD e cassete. Limite de 3 discos por dia na escuta.",
+  "por_que": "Loja de disco perto da estação.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=GROOVIN%27%20%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%20%E5%BA%83%E5%B3%B6%20%E4%BA%AC%E6%A9%8B%E7%94%BA&query_place_id=ChIJVQDAz6qYWjURJNHjPkiH2ZQ",
+  "fontes": [
+   "https://musicphotolife.com/2025/11/vinyl-record-shopping-hiroshima-fukuyama-okayama/"
+  ]
+ },
+ {
+  "nome": "Pennet.",
+  "cidade": "Hiroshima",
+  "bairro": "Fukuromachi",
+  "categoria": "compras",
+  "lat": 34.392255,
+  "lng": 132.459684,
+  "nota": "ペネット · 13:00–19:00 · fecha na quarta",
+  "o_que": "Brechó de roupa usada de fabricação japonesa, com seleção retrô.",
+  "por_que": "Brechó de peça japonesa, sem roupa americana importada.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Pennet%20%E5%8F%A4%E7%9D%80%20%E5%BA%83%E5%B3%B6%20%E8%A2%8B%E7%94%BA&query_place_id=ChIJMbOxVw6iWjURu3hBqCDwo40",
+  "fontes": [
+   "https://pennetnet.base.shop/about"
+  ]
+ },
+ {
+  "nome": "RAGTAG Hiroshima",
+  "cidade": "Hiroshima",
+  "bairro": "Estação de Hiroshima, minamoa 4F",
+  "categoria": "compras",
+  "lat": 34.3969943,
+  "lng": 132.4750358,
+  "nota": "RAGTAG 広島店 · 10:00–20:00 todo dia",
+  "o_que": "Usados de designers japoneses, como Comme des Garçons e Junya Watanabe. A etiqueta indica o estado de cada peça.",
+  "por_que": "Designer japonês de segunda mão.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=RAGTAG%20%E5%BA%83%E5%B3%B6%E5%BA%97%20%E3%83%9F%E3%83%8A%E3%83%A2%E3%82%A2&query_place_id=ChIJMZpd2tKfWjURBjRI_Ri6QeU",
+  "fontes": [
+   "https://www.ragtag.jp/shop/"
+  ]
+ },
+ {
+  "nome": "2nd Street Hondori",
+  "cidade": "Hiroshima",
+  "bairro": "Hondori",
+  "categoria": "compras",
+  "lat": 34.3925491,
+  "lng": 132.4616366,
+  "nota": "セカンドストリート 広島本通店 · 10:00–21:00 todo dia",
+  "o_que": "Rede japonesa de usados. Esta loja tem mais marcas caras que as outras lojas da rede.",
+  "por_que": "Usados a poucos minutos do hotel.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%20%E5%BA%83%E5%B3%B6%E6%9C%AC%E9%80%9A%E5%BA%97&query_place_id=ChIJjUMtag-iWjURke0s-ytLfrM",
+  "fontes": [
+   "https://www.2ndstreet.jp/shop/details?shopsId=30993"
+  ]
+ },
+ {
+  "nome": "Hakuchoza",
+  "cidade": "Hiroshima",
+  "bairro": "Furue",
+  "categoria": "compras",
+  "lat": 34.3851878,
+  "lng": 132.4091246,
+  "nota": "白鳥座雑貨店 · sex–dom 13:30–18:00",
+  "o_que": "Objetos antigos japoneses: kokeshi, urso de madeira, caixa de remédio, louça da era Showa. A loja fecha quando vai a feira. Confira o Instagram hakuchouza.",
+  "por_que": "Antiguidade japonesa do dia a dia. Só sexta 13/11.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E9%B3%A5%E5%BA%A7%E9%9B%91%E8%B2%A8%E5%BA%97%20%E5%BA%83%E5%B3%B6%20%E5%8F%A4%E6%B1%9F&query_place_id=ChIJAX2EbnOiWjURk9H9La5og1k",
+  "fontes": [
+   "https://rafuju.jp/mag/20230519/"
+  ]
+ },
+ {
+  "nome": "Yumesagashi Funairi",
+  "cidade": "Hiroshima",
+  "bairro": "Funairi-minami",
+  "categoria": "compras",
+  "lat": 34.3762229,
+  "lng": 132.4372398,
+  "nota": "きもの夢さがし 舟入店 · 10:00–18:00 · qua até 17:00 · fecha no domingo",
+  "o_que": "Kimono reciclado e acessórios de vestir, com preço acessível.",
+  "por_que": "Kimono usado barato.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%82%82%E3%81%AE%E5%A4%A2%E3%81%95%E3%81%8C%E3%81%97%20%E8%88%9F%E5%85%A5%E5%BA%97%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJbXXbEFSiWjURJc01LXv5P7k",
+  "fontes": [
+   "https://www.yumesagashi.jp/"
+  ]
+ },
+ {
+  "nome": "Tenma Kobijutsu",
+  "cidade": "Hiroshima",
+  "bairro": "Tenma-cho",
+  "categoria": "compras",
+  "lat": 34.3956818,
+  "lng": 132.4426711,
+  "nota": "天満古美術 · 9:00–19:00 todo dia",
+  "o_que": "Antiquário com mais de 50 anos: cerâmica, laca, kimono e ferro. Os donos mostram mais peças do tipo que interessa a você.",
+  "por_que": "Antiquário japonês de bairro.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%BA%80%E5%8F%A4%E7%BE%8E%E8%A1%93%20%E5%BA%83%E5%B3%B6%20%E5%A4%A9%E6%BA%80%E7%94%BA&query_place_id=ChIJ04aGZGWiWjUR9Rxdh19D3O8",
+  "fontes": [
+   "https://www.tenma-kobijutsu.jp/"
+  ]
+ },
+ {
+  "nome": "Takeda Iryohinten",
+  "cidade": "Hiroshima",
+  "bairro": "Yokogawa",
+  "categoria": "compras",
+  "lat": 34.4084359,
+  "lng": 132.4512503,
+  "nota": "竹田衣料品店 · 10:00–17:00 · fecha na quarta",
+  "o_que": "Loja de roupa de bairro desde 1947, com mais de 10.000 itens empilhados. Toalha ¥300 e suéter ¥950 em 2019.",
+  "por_que": "Muito tradicional e muito barata.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E7%94%B0%E8%A1%A3%E6%96%99%E5%93%81%E5%BA%97%20%E5%BA%83%E5%B3%B6%20%E6%A8%AA%E5%B7%9D%E7%94%BA&query_place_id=ChIJQ1cCwpiYWjUR2Nmzg3ao-pY",
+  "fontes": [
+   "https://yokogawanow.com/takedairyouhinten/"
+  ]
+ },
+ {
+  "nome": "Nagasakiya",
+  "cidade": "Hiroshima",
+  "bairro": "Hondori",
+  "categoria": "compras",
+  "lat": 34.393605,
+  "lng": 132.4575883,
+  "nota": "長崎屋 · 10:00–18:00 todo dia",
+  "o_que": "Loja de produtos de Hiroshima fundada em 1892. Revende cerâmica de Miyajima da olaria Taigendo.",
+  "por_que": "Loja antiga da rua do hotel.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E5%B4%8E%E5%B1%8B%20%E5%BA%83%E5%B3%B6%20%E6%9C%AC%E9%80%9A&query_place_id=ChIJCylJKAyiWjURmZg-lMNRlH8",
+  "fontes": [
+   "https://dive-hiroshima.com/explore/3481/",
+   "https://miyajimayaki.jp/topics/store_nagasakiya/"
+  ]
+ },
+ {
+  "nome": "Kinuya",
+  "cidade": "Hiroshima",
+  "bairro": "Honkawa-cho",
+  "categoria": "compras",
+  "lat": 34.3960881,
+  "lng": 132.4492481,
+  "nota": "きぬや · 10:00–18:00 · dom 12:00–17:00",
+  "o_que": "Armarinho com botões, renda, tecido e material para bolsa. Coloca botão de pressão na hora.",
+  "por_que": "Armarinho tradicional.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8D%E3%81%AC%E3%82%84%20%E5%BA%83%E5%B3%B6%20%E6%9C%AC%E5%B7%9D%E7%94%BA&query_place_id=ChIJFc8HR3KiWjUReoi1LQ-iUoI",
+  "fontes": [
+   "https://www.bm-peekaboo.com/information/37391/"
+  ]
+ },
+ {
+  "nome": "Tayama Bungu",
+  "cidade": "Hiroshima",
+  "bairro": "Hondori",
+  "categoria": "compras",
+  "lat": 34.3929939,
+  "lng": 132.4587366,
+  "nota": "多山文具 本通ヒルズ店 · 10:00–20:00 todo dia",
+  "o_que": "Papelaria local no 3º andar do prédio Hondori Hills.",
+  "por_que": "Papelaria de Hiroshima.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9A%E5%B1%B1%E6%96%87%E5%85%B7%20%E6%9C%AC%E9%80%9A%E3%83%92%E3%83%AB%E3%82%BA%E5%BA%97&query_place_id=ChIJEbS7iw6iWjURMQaJsCSOzfo",
+  "fontes": [
+   "https://tayama-bungu.net/shop"
+  ]
+ },
+ {
+  "nome": "Watanabe Toen",
+  "cidade": "Hiroshima",
+  "bairro": "Hondori",
+  "categoria": "compras",
+  "lat": 34.3929954,
+  "lng": 132.4587129,
+  "nota": "渡部陶苑 · 10:00–20:00 todo dia",
+  "o_que": "Louça japonesa de uso diário, bules e hashi, com preço baixo. Fica no mesmo andar da papelaria Tayama.",
+  "por_que": "Cerâmica barata em grande quantidade.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%A1%E9%83%A8%E9%99%B6%E8%8B%91%20%E5%BA%83%E5%B3%B6%20%E6%9C%AC%E9%80%9A&query_place_id=ChIJyY2Tiw6iWjURuXd6YAhgybg",
+  "fontes": [
+   "https://watanabe-touen.com/about_store/"
+  ]
+ },
+ {
+  "nome": "READAN DEAT",
+  "cidade": "Hiroshima",
+  "bairro": "Honkawa-cho",
+  "categoria": "compras",
+  "lat": 34.3970187,
+  "lng": 132.451298,
+  "nota": "リーダン・ディート · 11:00–18:00 · fecha na terça",
+  "o_que": "Livraria independente com cerâmica de autor, arte popular e zines, no 2º andar de um prédio antigo.",
+  "por_que": "Seleção feita pelo dono.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=READAN%20DEAT%20%E5%BA%83%E5%B3%B6%20%E6%9C%AC%E5%B7%9D%E7%94%BA&query_place_id=ChIJ__9PE3OiWjURoAFBdLXkbrY",
+  "fontes": [
+   "https://hiroshima-artscene.com/galleries/readan-deat/"
+  ]
+ },
+ {
+  "nome": "Atelier Shion",
+  "cidade": "Hiroshima",
+  "bairro": "Nobori-cho",
+  "categoria": "compras",
+  "lat": 34.3967814,
+  "lng": 132.4679822,
+  "nota": "あとりえしおん · ter–sáb 11:30–17:00",
+  "o_que": "Tingimento índigo, cerâmica, vidro e laca. A loja tem 39 anos.",
+  "por_que": "Índigo e cerâmica de artesão.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%82%E3%81%A8%E3%82%8A%E3%81%88%E3%81%97%E3%81%8A%E3%82%93%20%E5%BA%83%E5%B3%B6%20%E5%B9%9F%E7%94%BA&query_place_id=ChIJrU-BGKqYWjURY30Yx6bRbxM",
+  "fontes": [
+   "https://www.atelier-shion.com/home/"
+  ]
+ },
+ {
+  "nome": "Yu Suga",
+  "cidade": "Hiroshima",
+  "bairro": "Higashi-hakushima",
+  "categoria": "compras",
+  "lat": 34.4057638,
+  "lng": 132.4653528,
+  "nota": "釉すが · seg–sáb 12:00–19:00",
+  "o_que": "Galeria de cerâmica de autor.",
+  "por_que": "Cerâmica de ceramista local.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%87%89%E3%81%99%E3%81%8C%20%E5%BA%83%E5%B3%B6%20%E6%9D%B1%E7%99%BD%E5%B3%B6%E7%94%BA&query_place_id=ChIJMx8yKq6YWjURjcdj40AOdjQ",
+  "fontes": [
+   "https://www.yuusuga.com/"
+  ]
+ },
+ {
+  "nome": "Spingle Hiroshima",
+  "cidade": "Hiroshima",
+  "bairro": "Kami-hatchobori",
+  "categoria": "compras",
+  "lat": 34.399728,
+  "lng": 132.464157,
+  "nota": "SPINGLE 広島 · 11:00–19:00 · folga na quarta segundo um guia",
+  "o_que": "Tênis feitos à mão em Fuchu, na província de Hiroshima. De ¥18.700 a ¥34.100.",
+  "por_que": "Marca local de calçado.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=SPINGLE%20%E5%BA%83%E5%B3%B6%20%E4%B8%8A%E5%85%AB%E4%B8%81%E5%A0%80&query_place_id=ChIJBXdAXwCZWjURc4GioG9g9JI",
+  "fontes": [
+   "https://www.spingle.jp/news/hirosima-newopen/"
+  ]
+ },
+ {
+  "nome": "Hiroshima IPPIN",
+  "cidade": "Hiroshima",
+  "bairro": "Castelo de Hiroshima",
+  "categoria": "compras",
+  "lat": 34.3997292,
+  "lng": 132.4581413,
+  "nota": "ひろしまIPPIN 広島城三の丸店 · 10:00–17:00 todo dia",
+  "o_que": "Loja de produtos de Hiroshima no castelo. Procure a marca Re:ADY B, que refaz kimono e obi em bolsa e roupa.",
+  "por_que": "Marcas locais num só lugar.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%82%8D%E3%81%97%E3%81%BEIPPIN%20%E5%BA%83%E5%B3%B6%E5%9F%8E%E4%B8%89%E3%81%AE%E4%B8%B8&query_place_id=ChIJn1MIvFCZWjURtsnf20mPkFY",
+  "fontes": [
+   "https://sannomaru.hiroshimacastle.jp/tenant/",
+   "https://akin-do.com/ready-b/"
+  ]
  }
 ]
