@@ -608,8 +608,8 @@
   "lat": 34.4100844,
   "lng": 132.4522535,
   "nota": "横川商店街",
-  "o_que": "Bairro com seis ruas de comércio antigas, murais, cinema de arte e casas de show. Poucos turistas.",
-  "por_que": "Bairro local. Combine com a loja Takeda e o Yokogawa Cinema.",
+  "o_que": "Bairro com seis ruas de comércio antigas, murais e bares pequenos. Poucos turistas.",
+  "por_que": "Bairro local. Combine com a loja Takeda.",
   "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A8%AA%E5%B7%9D%E5%95%86%E5%BA%97%E8%A1%97%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJSSfhaJiYWjURnZU7zwTTloQ",
   "fontes": [
    "https://www.magical-trip.com/media/hiroshima-nightlife-2025-the-ultimate-locals-guide-to-top-bars-izakaya-local-food-night-experiences/"
@@ -674,51 +674,6 @@
   "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%B2%E3%82%8D%E3%81%97%E3%81%BE%E3%82%B2%E3%83%BC%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%E3%83%97%E3%83%A9%E3%82%B6&query_place_id=ChIJB48n4LujWjURcu9k60VQG78",
   "fontes": [
    "https://www.walkerplus.com/event_list/ar0834/"
-  ]
- },
- {
-  "nome": "Salon Cinema",
-  "cidade": "Hiroshima",
-  "bairro": "Hatchobori",
-  "categoria": "experiência",
-  "lat": 34.3946077,
-  "lng": 132.4620807,
-  "nota": "サロンシネマ · ¥1.800 · última sessão ¥1.300",
-  "o_que": "Cinema de arte no 8º andar do prédio Toei Plaza, com poltronas largas. Filmes sem legenda em inglês.",
-  "por_que": "Cinema independente local.",
-  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%AD%E3%83%B3%E3%82%B7%E3%83%8D%E3%83%9E%20%E5%BA%83%E5%B3%B6%20%E5%85%AB%E4%B8%81%E5%A0%80&query_place_id=ChIJwawgowiiWjUR8aX0EzSjESs",
-  "fontes": [
-   "https://johakyu.co.jp/schedule.html"
-  ]
- },
- {
-  "nome": "Hatchoza",
-  "cidade": "Hiroshima",
-  "bairro": "Ebisu-cho",
-  "categoria": "experiência",
-  "lat": 34.3934218,
-  "lng": 132.4630477,
-  "nota": "八丁座 · ¥1.800 · última sessão ¥1.300",
-  "o_que": "Cinema de arte no 8º andar da loja Fukuya. Quinta 12/11: Odisseia em película 35 mm, 18:00–20:52.",
-  "por_que": "Sessão em película.",
-  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%AB%E4%B8%81%E5%BA%A7%20%E5%BA%83%E5%B3%B6%20%E7%A6%8F%E5%B1%8B&query_place_id=ChIJ9xD8AQaiWjURJkTLLzF2Wew",
-  "fontes": [
-   "https://johakyu.co.jp/schedule.html"
-  ]
- },
- {
-  "nome": "Yokogawa Cinema",
-  "cidade": "Hiroshima",
-  "bairro": "Yokogawa",
-  "categoria": "experiência",
-  "lat": 34.4101047,
-  "lng": 132.4520656,
-  "nota": "横川シネマ · sala única",
-  "o_que": "Cinema de arte de bairro. Quinta 12/11: Il dono 14:40, Le quattro volte 16:20.",
-  "por_que": "Cinema pequeno em bairro sem turista.",
-  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%A8%AA%E5%B7%9D%E3%82%B7%E3%83%8D%E3%83%9E%20%E5%BA%83%E5%B3%B6&query_place_id=ChIJU5HdaJiYWjURtFVvhTsZGPo",
-  "fontes": [
-   "https://yokogawa-cine.jugem.jp/"
   ]
  },
  {
