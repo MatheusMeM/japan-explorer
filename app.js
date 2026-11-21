@@ -82,9 +82,22 @@ function normalizar(r, importado = false) {
   };
 }
 
+// Lugar que está no dados.enc e também em importar/locais.json (mesmo id): o texto do dados.enc fica.
+// O extra só preenche campo vazio, troca o pin e o link do Maps pelos dele (conferidos no Google Places) e soma as fontes.
+const vazio = v => v == null || v === '' || (Array.isArray(v) && !v.length);
+function mesclar(base, extra) {
+  const m = { ...extra };
+  for (const [k, v] of Object.entries(base)) if (!vazio(v)) m[k] = v;
+  if (base.categoria === 'outro') m.categoria = extra.categoria;  // 'outro' é o valor padrão de categoria ausente
+  if (extra.lat != null) Object.assign(m, { lat: extra.lat, lng: extra.lng, maps_url: extra.maps_url || base.maps_url });
+  m.fontes = [...new Set([...(base.fontes.length ? base.fontes : [base.fonte_url]), ...extra.fontes].filter(Boolean))];
+  return m;
+}
+
 function locais() {
-  const m = new Map();
-  for (const l of [...D.locais, ...D.extras, ...store.get('locais_importados', [])]) m.set(l.id, l);
+  const m = new Map(D.locais.map(l => [l.id, l]));
+  for (const x of D.extras) m.set(x.id, m.has(x.id) ? mesclar(m.get(x.id), x) : x);
+  for (const l of store.get('locais_importados', [])) m.set(l.id, l);
   return [...m.values()];
 }
 
@@ -582,13 +595,18 @@ async function criarMapa() {
   }
 }
 
+// "Ver no mapa" chama aba('mapa') e abrirMapa(foco) em seguida. Com o mapa ainda fechado, as duas chamadas
+// criavam dois mapas no mesmo lugar: o mapa abria fora do local e às vezes sem pins. Agora as duas esperam a mesma criação.
+let criandoMapa = null;
 async function abrirMapa(foco) {
   try {
-    if (!mapa) {
+    if (!mapa || criandoMapa) {
       msgMapa('Carregando mapa…');
-      await criarMapa();
-      $('#irpara').innerHTML = '<option value="">Ir para…</option>' + D.mapas.flatMap(m => Object.keys(m.regioes))
-        .map(n => `<option>${esc(n)}</option>`).join('');
+      criandoMapa ??= criarMapa().then(() => {
+        $('#irpara').innerHTML = '<option value="">Ir para…</option>' + D.mapas.flatMap(m => Object.keys(m.regioes))
+          .map(n => `<option>${esc(n)}</option>`).join('');
+      }).finally(() => { criandoMapa = null; });
+      await criandoMapa;
     }
     mapa.resize();
     estadoMapas();
@@ -697,7 +715,8 @@ async function exportar() {
 // ---------- início ----------
 function montar() {
   D.locais = (D.locais || []).map(r => normalizar(r)).filter(Boolean);
-  D.extras = (Array.isArray(D.extras) ? D.extras : []).map(r => normalizar(r)).filter(Boolean);
+  // Registro que não é objeto (null, número) é ignorado: um erro no arquivo de extras não pode travar a abertura do app.
+  D.extras = (Array.isArray(D.extras) ? D.extras : []).filter(r => r && typeof r === 'object').map(r => normalizar(r)).filter(Boolean);
   D.hoteis = D.hoteis || [];
   $('#login').hidden = true; $('#app').hidden = false; $('#nav').hidden = false;
   document.documentElement.style.setProperty('--top', $('header').offsetHeight + 'px');
