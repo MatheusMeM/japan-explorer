@@ -1180,5 +1180,148 @@
   "lat": 35.65772,
   "lng": 139.699199,
   "maps_url": "https://www.google.com/maps/search/?api=1&query=DJ%20BAR%20OATH%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%E9%81%93%E7%8E%84%E5%9D%821-6-5&query_place_id=ChIJewLQtleLGGARbdCCxq3Jmko"
+ },
+ {
+  "nome": "Kappabashi Dougu-gai",
+  "cidade": "Tóquio",
+  "bairro": "Nishi-Asakusa e Matsugaya, entrada sul da rua",
+  "categoria": "compras",
+  "nota": "かっぱ橋道具街 · entrada sul no cruzamento com a Asakusa-dori · a maioria das lojas abre 10:00–17:00 · mais da metade fecha no domingo e no feriado",
+  "o_que": "Rua de atacado com cerca de 170 lojas de louça, utensílio e material para restaurante. A rua tem cerca de 800 m. Ela começa neste pin, no prédio da Niimi com a estátua do chef gigante no telhado, e vai para o norte.",
+  "por_que": "Apoio de hashi (箸置き) de cerâmica mais barato que no mercado de Tsukiji. No Tsukiji, a peça custava 750 ienes.",
+  "dicas": "Na loja de material para restaurante, o apoio de hashi de cerâmica custa cerca de 190 a 370 ienes. Compre nas lojas de louça para restaurante, não nas lojas de souvenir. Mostre a palavra 箸置き no balcão. Algumas lojas aceitam só dinheiro. Domingo 22/11 e segunda 23/11 (feriado): muitas lojas fecham.",
+  "fontes": [
+   "https://travel.navitime.com/en/area/jp/spot/02301-1300592",
+   "https://www.gltjp.com/en/directory/item/10210/",
+   "https://www.inshokuten.com/kitchen/pg/728531",
+   "https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-asakusa/spot-lj0002626"
+  ],
+  "lat": 35.7105797,
+  "lng": 139.7879645,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%A3%E3%81%B1%E6%A9%8B%E9%81%93%E5%85%B7%E8%A1%97&query_place_id=ChIJXYV-6JWOGGAR85vIZbM1RCE"
+ },
+ {
+  "nome": "Ganso Shokuhin Sample-ya",
+  "cidade": "Tóquio",
+  "bairro": "Kappabashi, Nishi-Asakusa 3-chome",
+  "categoria": "compras",
+  "nota": "元祖食品サンプル屋 合羽橋店 · 台東区西浅草3-7-6 · 10:00–17:30 todo dia",
+  "o_que": "Loja de réplica de comida de vitrine (食品サンプル). O térreo vende ímã, chaveiro e kit para montar. No andar de cima, a loja faz oficina de réplica de cera.",
+  "por_que": "Referência de qualidade para o ímã de sushi. A peça é de PVC, feita à mão no Japão, e custa caro.",
+  "dicas": "Use esta loja para comparar qualidade e preço. Para pagar menos, compre na Daiso do Asakusa ROX ou na Don Quijote Asakusa, a cerca de 5 min a pé. A Sato Sample fica a 30 m, do outro lado da rua. A oficina de réplica custa 3.300 ienes e precisa de reserva.",
+  "fontes": [
+   "https://deeptokyo.jp/en/?p=6420",
+   "https://timeout.com/tokyo/shopping/ganso-shokuhin-sample-ya",
+   "https://shop.ganso-sample.com/en/products/4580655318317",
+   "https://trip.pref.kanagawa.jp/destination/ganso-shokuhin-sample-ya-kappabashi/1299"
+  ],
+  "lat": 35.714885,
+  "lng": 139.7891014,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%85%83%E7%A5%96%E9%A3%9F%E5%93%81%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E5%B1%8B%20%E5%90%88%E7%BE%BD%E6%A9%8B%E5%BA%97&query_place_id=ChIJXfrPw5WOGGARtaWpQ0neL7U"
+ },
+ {
+  "nome": "DAISO Asakusa ROX",
+  "cidade": "Tóquio",
+  "bairro": "Asakusa, shopping Asakusa ROX, 4º andar",
+  "categoria": "compras",
+  "nota": "DAISO 浅草ROX店 · 台東区浅草1-25-15 ROX 4F · 10:30–21:00 todo dia",
+  "o_que": "Loja de 100 ienes grande, com souvenir japonês barato.",
+  "por_que": "Opção mais barata para ímã de sushi e apoio de hashi de cerâmica. A maioria dos itens custa 110 ienes com imposto (assumindo o preço padrão).",
+  "dicas": "Procure a seção de souvenir japonês (和雑貨). Se não achar, mostre ao funcionário: 寿司のマグネットはありますか？ (\"Tem ímã de sushi?\"). Algumas peças custam mais que 110 ienes: confira a etiqueta.",
+  "fontes": [
+   "https://twowanderingsoles.com/?p=712",
+   "https://www.erikastravelventures.com/?p=18309"
+  ],
+  "lat": 35.7129618,
+  "lng": 139.7927686,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=DAISO%20%E6%B5%85%E8%8D%89ROX%E5%BA%97&query_place_id=ChIJiUH7gsCOGGARo7DCPIOAEnE"
+ },
+ {
+  "nome": "DAISO Maruetsu Higashi-Ueno",
+  "cidade": "Tóquio",
+  "bairro": "Higashi-Ueno 5-chome, entre Kappabashi e Ueno",
+  "categoria": "compras",
+  "nota": "DAISO マルエツ東上野店 · 台東区東上野5-17-11 · 7:00–22:00 todo dia",
+  "o_que": "Loja de 100 ienes pequena, no prédio do supermercado Maruetsu.",
+  "por_que": "Opção barata no caminho a pé entre Kappabashi e Ueno. Abre cedo e fecha tarde.",
+  "dicas": "Segundo avaliação no Google, a loja fica acima do supermercado. O estoque de souvenir é menor que o da Daiso do Asakusa ROX (assumindo, pelo tamanho da loja).",
+  "fontes": [
+   "https://mapfan.com/genres/17/13/106"
+  ],
+  "lat": 35.7137059,
+  "lng": 139.7827558,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=DAISO%20%E3%83%9E%E3%83%AB%E3%82%A8%E3%83%84%E6%9D%B1%E4%B8%8A%E9%87%8E%E5%BA%97&query_place_id=ChIJM0wyDPKPGGARADale5kOrig"
+ },
+ {
+  "nome": "Don Quijote Asakusa",
+  "cidade": "Tóquio",
+  "bairro": "Asakusa, perto da estação Asakusa da Tsukuba Express",
+  "categoria": "compras",
+  "nota": "ドン・キホーテ浅草店 · 台東区浅草2-10-14 · aberta 24 h",
+  "o_que": "Loja de desconto com vários andares e seção de souvenir japonês.",
+  "por_que": "Vende ímã de sushi barato e fica aberta 24 h.",
+  "dicas": "Compare o preço com a Daiso antes de comprar. Avaliações no Google dizem que o souvenir aqui pode custar mais que em outras lojas. A loja tem isenção de imposto para turista e cupom de desconto: leve o passaporte.",
+  "fontes": [
+   "https://twowanderingsoles.com/?p=712",
+   "https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-asakusa/article-a0003467",
+   "https://matcha-jp.com/en/2611"
+  ],
+  "lat": 35.7138638,
+  "lng": 139.7930834,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86%E6%B5%85%E8%8D%89%E5%BA%97&query_place_id=ChIJoTFLi7-OGGARzurWx-XRFYg"
+ },
+ {
+  "nome": "Gashapon Official Shop @ASAKUSA",
+  "cidade": "Tóquio",
+  "bairro": "Asakusa, em frente ao portão Kaminarimon",
+  "categoria": "compras",
+  "nota": "ガシャポンオフィシャルショップ@ASAKUSA · 台東区浅草1-3-4 K-雷門 1F · 10:00–20:00",
+  "o_que": "Loja de gacha (máquina de cápsula) com 548 máquinas.",
+  "por_que": "Miniatura de sushi e de comida por 200 a 500 ienes. Algumas miniaturas têm ímã atrás.",
+  "dicas": "A máquina escolhe a peça ao acaso. Na etiqueta da máquina, procure マグネット (ímã) e 食品サンプル (réplica de comida). Leve moedas de 100 ienes. Em horário cheio, a loja pode limitar a entrada com senha. Segundo o Google, a loja de gacha Gashacoco fica no mesmo endereço.",
+  "fontes": [
+   "https://san-tatsu.jp/pressrelease/490088/",
+   "https://news.allabout.co.jp/articles/o/123994/",
+   "https://yomuno.jp/posts/111259"
+  ],
+  "lat": 35.7110801,
+  "lng": 139.7959057,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AC%E3%82%B7%E3%83%A3%E3%83%9D%E3%83%B3%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%40ASAKUSA&query_place_id=ChIJlRdiCACPGGARxGdWqcW5OT0"
+ },
+ {
+  "nome": "Gashapon Bandai Official Shop Hanayashiki",
+  "cidade": "Tóquio",
+  "bairro": "Asakusa, entrada do parque Hanayashiki (área grátis)",
+  "categoria": "compras",
+  "nota": "ガシャポンバンダイオフィシャルショップ浅草花やしき店 · 台東区浅草2-28-1 · 10:00–18:00",
+  "o_que": "Loja oficial da Bandai com 300 máquinas de gacha. Fica fora do parque, na área de entrada grátis.",
+  "por_que": "Tem todos os lançamentos de gacha da Bandai. Em 2026, a Bandai lançou miniaturas de sushi por 300 ienes.",
+  "dicas": "A máquina escolhe a peça ao acaso. Uma avaliação no Google diz que a loja fecha às 17:00 na prática: chegue antes. O site oficial mostra o estoque de cada máquina. No Google Maps, a loja aparece com o nome antigo Gachapon Department Store.",
+  "fontes": [
+   "https://www.inside-games.jp/release/prtimes/20260225/273194.html",
+   "https://premium.gamepedia.jp/hobby/?p=108245",
+   "https://news.allabout.co.jp/articles/o/123994/"
+  ],
+  "lat": 35.7153793,
+  "lng": 139.7939737,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%AC%E3%82%B7%E3%83%A3%E3%83%9D%E3%83%B3%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E6%B5%85%E8%8D%89%E8%8A%B1%E3%82%84%E3%81%97%E3%81%8D%E5%BA%97&query_place_id=ChIJT-QabJOPGGARa0CVtMBaUyM"
+ },
+ {
+  "nome": "Ameyoko",
+  "cidade": "Tóquio",
+  "bairro": "Ueno, entre as estações Ueno e Okachimachi",
+  "categoria": "compras",
+  "nota": "アメ横商店街 · 台東区上野6-10 · cerca de 500 m ao lado dos trilhos da JR",
+  "o_que": "Rua de mercado ao lado dos trilhos, com mais de 400 lojas. Vende peixe, comida seca, roupa, acessório e cosmético.",
+  "por_que": "É a rua mais parecida com a 25 de Março. O preço é baixo e você pode negociar.",
+  "dicas": "Ímã de comida realista não é o forte da rua. Para ímã barato, use a Daiso ou a Don Quijote. A DAISO Takeya Okachimachi fica perto, em 台東区台東4-12-1. Segundo avaliação no Google, algumas lojas fecham em certas quartas-feiras.",
+  "fontes": [
+   "https://www.uenostation.com/ameya-yokocho-ameyoko-uenos-lively-street-market/",
+   "https://jw-webmagazine.com/tips/ameyoko-shopping-street",
+   "https://mapfan.com/genres/17/13/106"
+  ],
+  "lat": 35.7100682,
+  "lng": 139.7746009,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%A1%E6%A8%AA%E5%95%86%E5%BA%97%E8%A1%97&query_place_id=ChIJh7eDrwCPGGARCs9fpCkKS2U"
  }
 ]
