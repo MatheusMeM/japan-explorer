@@ -1127,5 +1127,58 @@
    "https://sannomaru.hiroshimacastle.jp/tenant/",
    "https://akin-do.com/ready-b/"
   ]
+ },
+ {
+  "nome": "RED BAR",
+  "cidade": "Tóquio",
+  "bairro": "Shibuya 4-chome, perto da Aoyama Gakuin",
+  "categoria": "bar",
+  "nota": "渋谷区渋谷4-5-9 青山ビル 1F · seg–qui 20:00–5:00 · sex–sáb 21:00–9:00 · dom 21:00–5:00 · fecha seg 23/11 (feriado)",
+  "o_que": "Bar de DJ no térreo do Aoyama Building. Paredes vermelhas, espelhos e lustres por todo lado. Tem cantos para conversar e espaço para dançar. Uma escada interna leva à Aoyama Tunnel, bar irmão no subsolo.",
+  "por_que": "Indicação do reel de @lorenaadiias sobre listening bars de Tóquio. Os três bares do reel têm vinil, música e espaço para dançar, sem ser balada.",
+  "dicas": "No vídeo, ela diz que o 3º andar do prédio fica aberto como after aos domingos. O 3º andar é a pista principal do Aoyama Hachi, que ocupa do 2º ao 4º andar. A festa de manhã Asa-Hachi acontece aos sábados, domingos e feriados. Confirme o horário antes de ir. Um cartaz na porta diz que uma entrada vale para todas as casas do grupo na mesma noite. Confirme na porta.",
+  "fontes": [
+   "https://www.instagram.com/reel/Df7CH-zOiLG/",
+   "https://www.tokyo-club.net/red-bar/",
+   "https://www.timeout.jp/tokyo/ja/%E3%82%AF%E3%83%A9%E3%83%96/aoyamabachi"
+  ],
+  "lat": 35.6586566,
+  "lng": 139.7091845,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=RED%20BAR%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B74-5-9%20%E9%9D%92%E5%B1%B1%E3%83%93%E3%83%AB&query_place_id=ChIJ_zQhJcSLGGARSWnKD88bAQw"
+ },
+ {
+  "nome": "AZUMAYA",
+  "cidade": "Tóquio",
+  "bairro": "Dogenzaka 2-chome, prédio Spotify O-EAST",
+  "categoria": "bar",
+  "nota": "東間屋 · 渋谷区道玄坂2-14-8 Spotify O-EAST 2F · seg–sáb e véspera de feriado 22:00–4:30 · fecha no domingo",
+  "o_que": "Bar de DJ no 2º andar da casa de shows Spotify O-EAST. Você sobe a escada de madeira da fachada. O interior é obra de Hirokazu Yamazaki, da banda toe. DJs residentes e convidados tocam house e techno toda noite. Tem sofás e bancos para conversar e uma pista para dançar.",
+  "por_que": "Indicação do reel de @lorenaadiias. Ela diz que o AZUMAYA tem proposta mais local, com DJs da cena de Tóquio, e é bom para passar horas.",
+  "dicas": "A taxa de música custa ¥1.500 nas noites da agenda do site. O site diz que o bar abre na véspera de feriado. Domingo 22/11 é véspera do feriado de 23/11: confirme no X @azumaya_shibuya. O bartender tem certificado de sommelier de saquê e usa especiarias japonesas nos drinques.",
+  "fontes": [
+   "https://www.instagram.com/reel/Df7CH-zOiLG/",
+   "https://azumaya.jp/"
+  ],
+  "lat": 35.6586841,
+  "lng": 139.6956445,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%96%93%E5%B1%8B%20AZUMAYA%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%E9%81%93%E7%8E%84%E5%9D%822-14-8&query_place_id=ChIJWznAfiONGGARM1ZhE0a_Cm8"
+ },
+ {
+  "nome": "OATH",
+  "cidade": "Tóquio",
+  "bairro": "Dogenzaka 1-chome, perto da estação de Shibuya",
+  "categoria": "bar",
+  "nota": "DJ BAR OATH · 渋谷区道玄坂1-6-5 B1F · ter–qui 21:00–6:00 · sex–sáb 22:00–8:00 · dom 21:00–5:00 · fecha na segunda",
+  "o_que": "Bar de DJ pequeno no subsolo, a uns 300 m da estação de Shibuya. A decoração tem lustres, espelhos de moldura dourada e paredes de couro capitonê. DJs locais e de fora tocam toda noite. Em março de 2026, a entrada custava ¥1.000.",
+  "por_que": "Indicação do reel de @lorenaadiias. Ela diz que o OATH é um dos favoritos dela.",
+  "dicas": "É do mesmo grupo do RED BAR. A entrada pode valer para as outras casas do grupo na mesma noite: confirme na porta. O OATH mudou para este endereço em 2018. Links antigos mostram o endereço de Aoyama.",
+  "fontes": [
+   "https://www.instagram.com/reel/Df7CH-zOiLG/",
+   "https://ra.co/events/2394435",
+   "https://clubberia.com/ja/news/10561-OATH-TRUMP-TOKYO/"
+  ],
+  "lat": 35.65772,
+  "lng": 139.699199,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=DJ%20BAR%20OATH%20%E6%B8%8B%E8%B0%B7%E5%8C%BA%E9%81%93%E7%8E%84%E5%9D%821-6-5&query_place_id=ChIJewLQtleLGGARbdCCxq3Jmko"
  }
 ]
