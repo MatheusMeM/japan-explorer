@@ -1323,5 +1323,144 @@
   "lat": 35.7100682,
   "lng": 139.7746009,
   "maps_url": "https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%A1%E6%A8%AA%E5%95%86%E5%BA%97%E8%A1%97&query_place_id=ChIJh7eDrwCPGGARCs9fpCkKS2U"
+ },
+ {
+  "nome": "MoN Takanawa — Feel the Sound",
+  "cidade": "Tóquio",
+  "bairro": "Takanawa Gateway City, Minato",
+  "categoria": "arte e tecnologia",
+  "nota": "MoN Takanawa Box1500 (5º andar) · 港区三田3-16-1 · 10:00–19:00, sexta e sábado até 21:00 · exposição até 22/03/2027",
+  "o_que": "Exposição de som da Barbican, de Londres. As instalações juntam som, vibração, música e tecnologia.",
+  "por_que": "Tem a obra Sensing Streams, de Ryuichi Sakamoto com Daito Manabe, sobre ondas eletromagnéticas. Mostra como fazer o público sentir o som com o corpo inteiro.",
+  "dicas": "A entrada exige reserva antecipada. Compre o ingresso no ArtSticker antes de ir: 2.500 ienes. O prédio é do Kengo Kuma. A sala Box1000 tem LED no palco inteiro. O museu fecha na segunda terça-feira de cada mês.",
+  "fontes": [
+   "https://www.tokyoartbeat.com/events/-/Feel-the-Sound/mon-takanawa-the-museum-of-narratives/2026-11-20",
+   "https://www.fashionsnap.com/article/2026-11-19/feel-the-sound-japan-mon-takanawa/",
+   "https://www.timeout.com/tokyo/art/feel-the-sound"
+  ],
+  "lat": 35.6396988,
+  "lng": 139.7418178,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=MoN%20Takanawa%3A%20The%20Museum%20of%20Narratives&query_place_id=ChIJh0l19UeLGGARpTcL3Xl0sfQ"
+ },
+ {
+  "nome": "Mori Art Museum — Mariko Mori",
+  "cidade": "Tóquio",
+  "bairro": "Roppongi Hills, Mori Tower 53º andar",
+  "categoria": "arte e tecnologia",
+  "nota": "森美術館 · 港区六本木6-10-1 六本木ヒルズ森タワー53階 · 10:00–22:00, terça até 17:00 · em 27/11/2026 fecha às 17:00 · exposição até 28/03/2027",
+  "o_que": "Retrospectiva de Mariko Mori, com cerca de 40 obras de 30 anos de trabalho.",
+  "por_que": "No Wave UFO, 3 pessoas entram na cápsula com fone de cabeça. Sensores leem as ondas cerebrais e o sistema projeta cores e imagens no teto. É arte interativa feita com sensor.",
+  "dicas": "Reserva antecipada não é obrigatória. Se ainda houver horário livre, compre na bilheteria no dia. As vagas para entrar no Wave UFO são limitadas: chegue cedo.",
+  "fontes": [
+   "https://www.mori.art.museum/en/exhibitions/marikomori/",
+   "https://bijutsutecho.com/magazine/news/report/33273?page=2",
+   "https://www.tokyoweekender.com/?p=302348"
+  ],
+  "lat": 35.6604621,
+  "lng": 139.7292785,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Mori%20Art%20Museum&query_place_id=ChIJg5RCD3eLGGAR6dbIHRM98w8"
+ },
+ {
+  "nome": "TOKYO NODE — Yoshirotten Beyond Earth",
+  "cidade": "Tóquio",
+  "bairro": "Toranomon Hills Station Tower, 45º e 49º andar",
+  "categoria": "arte e tecnologia",
+  "nota": "TOKYO NODE GALLERY · 港区虎ノ門2-6-2 虎ノ門ヒルズ ステーションタワー45階 · seg–sex 13:00–22:00, sáb 10:00–22:00, dom 10:00–20:00 · exposição até 11/01/2027",
+  "o_que": "Exposição de Yoshirotten com dados de satélite da JAXA transformados em luz, imagem e som.",
+  "por_que": "Usa dado real de buraco negro e estrela de nêutrons para fazer arte. Mostra o console de controle do primeiro satélite japonês, o Ohsumi. A janela de vidro da galeria muda a luz da obra ao longo do dia.",
+  "dicas": "Não há venda na bilheteria. Compre o ingresso online antes de ir: 2.200 ienes em dia útil, 2.500 no sábado e no domingo. A Beyond Earth Garden, no terraço do 49º andar, é grátis à noite, mas também exige ingresso online. O prédio liga direto à estação Toranomon Hills (linha Hibiya).",
+  "fontes": [
+   "https://www.tokyonode.jp/sp/yoshirotten/",
+   "https://artscape.jp/exhibitions/83020/",
+   "https://l-tike.com/order?gLcode=34163"
+  ],
+  "lat": 35.6679141,
+  "lng": 139.7466215,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=TOKYO%20NODE&query_place_id=ChIJNajsk7aLGGARVBysckm3wxs"
+ },
+ {
+  "nome": "MOT — Tada Minami",
+  "cidade": "Tóquio",
+  "bairro": "Kiyosumi-Shirakawa, parque Kiba",
+  "categoria": "arte e tecnologia",
+  "nota": "東京都現代美術館 · 江東区三好4-1-1(木場公園内) · 10:00–18:00 · fecha segunda · na sexta 27/11/2026 abre até 20:00 · exposição até 06/12/2026",
+  "o_que": "Retrospectiva de Tada Minami, com cerca de 70 obras: escultura, relevo, lustre e obra de arquitetura.",
+  "por_que": "Ela usava material e processo industrial e tratava a luz como o centro da forma, não como efeito. É estética de luz fixa em arquitetura, sem tela.",
+  "dicas": "Não encontrei exigência de reserva. Em dia de sol, a luz nas superfícies polidas fica melhor.",
+  "fontes": [
+   "https://www.mot-art-museum.jp/en/exhibitions/Tada-Minami/",
+   "https://www.e-flux.com/announcements/6787943/tada-minamistill-shimmering-light"
+  ],
+  "lat": 35.6797467,
+  "lng": 139.8081921,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Contemporary%20Art%20Tokyo&query_place_id=ChIJq6rq_BuJGGARh1qAooLX-as"
+ },
+ {
+  "nome": "CCBT — Daily tous les jours",
+  "cidade": "Tóquio",
+  "bairro": "Harajuku, Brahms Path",
+  "categoria": "arte e tecnologia",
+  "nota": "シビック・クリエイティブ・ベース東京 · 渋谷区神宮前1-14-4 1/1(ONE) HARAJUKU \"K\" B1 · 13:00–19:00 · fecha segunda · exposição até 17/01/2027",
+  "o_que": "Centro público de arte e tecnologia digital de Tóquio. Expõe o estúdio Daily tous les jours, de Montreal.",
+  "por_que": "A exposição usa som e luz para provocar encontros entre desconhecidos no espaço público. É o melhor lugar da lista para conhecer gente.",
+  "dicas": "As exposições do CCBT são grátis. A recepção fica no subsolo B1, apesar de a placa do prédio indicar o 3º andar. A segunda parte da exposição fica numa praça da Cat Street.",
+  "fontes": [
+   "https://www.haveagood-holiday.com/en/articles/daily-tous-les-jours-ccbt-enchanted-moments-as-resistance-2026",
+   "https://ccbt.rekibun.or.jp/en"
+  ],
+  "lat": 35.6710816,
+  "lng": 139.7038401,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Civic%20Creative%20Base%20Tokyo&query_place_id=ChIJqfojDj6NGGAR_-rDoSuszxw"
+ },
+ {
+  "nome": "seeen Harajuku — Kohei Nawa",
+  "cidade": "Tóquio",
+  "bairro": "Harajuku, travessa da Omotesando",
+  "categoria": "arte e tecnologia",
+  "nota": "seeen Harajuku · 渋谷区神宮前6-1-7 · 12:00–18:00 · exposição At Random até 28/11/2026",
+  "o_que": "Galeria de 4 andares projetada pelo escultor Kohei Nawa e pelo estúdio Sandwich. Expõe a mostra At Random, dele.",
+  "por_que": "A fachada de alumínio curvo e o interior em forma de caverna funcionam como escultura. As esferas transparentes da série PixCell distorcem os objetos que estão embaixo.",
+  "dicas": "Entrada grátis, sem reserva. Fica cheio e a escada em espiral é estreita: vá logo na abertura.",
+  "fontes": [
+   "https://www.timeout.com/tokyo/things-to-do/kohei-nawa-at-random",
+   "https://www.timeout.jp/tokyo/ja/news/seeen-harajuku-kohei-nawa-at-random-100126"
+  ],
+  "lat": 35.6676044,
+  "lng": 139.7063407,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=seeen%20Harajuku&query_place_id=ChIJHax4UgCNGGAR35aPUy56B1s"
+ },
+ {
+  "nome": "NEORT++",
+  "cidade": "Tóquio",
+  "bairro": "Bakurocho, prédio maruka 3º andar",
+  "categoria": "arte e tecnologia",
+  "nota": "NEORT++ · 中央区日本橋馬喰町2-2-14 maruka 3F · qua–dom 14:00–19:00 · fecha segunda, terça e feriado",
+  "o_que": "Galeria pequena de arte digital e arte de mídia.",
+  "por_que": "É uma galeria de referência em arte digital no Japão. Como o espaço é pequeno, você fala direto com o curador e com os artistas.",
+  "dicas": "As exposições anteriores foram grátis. Confira a exposição atual em two.neort.io antes de ir. A entrada fica atrás de um estacionamento. Use a saída C4 da estação Bakurocho (JR).",
+  "fontes": [
+   "https://artscape.jp/exhibitions/79563/",
+   "https://neort2-portal-web.vercel.app/"
+  ],
+  "lat": 35.6954831,
+  "lng": 139.7834854,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=NEORT%2B%2B&query_place_id=ChIJUW-IyjWPGGARcfq7UQY7IO4"
+ },
+ {
+  "nome": "Pace Tokyo — Alicja Kwade",
+  "cidade": "Tóquio",
+  "bairro": "Azabudai Hills, Garden Plaza A",
+  "categoria": "arte e tecnologia",
+  "nota": "Pace 東京 · 港区麻布台5-8 麻布台ヒルズ ガーデンプラザA · ter–sáb 11:00–19:00, dom 11:00–18:00 · fecha segunda · exposição até 25/12/2026",
+  "o_que": "Galeria internacional. Expõe esculturas novas de Alicja Kwade.",
+  "por_que": "As esculturas de Kwade, feitas de pedra e aço espelhado, brincam com a percepção de tempo e de escala.",
+  "dicas": "Entrada grátis. A galeria tem 2 andares sem ligação por dentro: saia e use a escada rolante de Azabudai Hills.",
+  "fontes": [
+   "https://ocula.com/art-galleries/pace-gallery/exhibitions/alicja-kwade-la-peche-miraculeuse/",
+   "https://metropolisjapan.com/events/alicja-kwade-la-peche-miraculeuse-pace-tokyo/"
+  ],
+  "lat": 35.6624921,
+  "lng": 139.7429109,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Pace%20Gallery&query_place_id=ChIJv50B80mLGGARHoNj_mo1d2o"
  }
 ]

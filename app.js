@@ -21,7 +21,7 @@ const tc = s => String(s ?? '').replace(/(https?:\/\/\S+)|[\p{L}\d]+/gu, (w, u, 
   return w;
 });
 const fdata = c => /^\d{4}-\d{2}-\d{2}/.test(c || '') ? ddmm(c) + c.slice(10) : (c || '');   // "2026-10-27 11:20" -> "27/10 11:20"
-const CATS = { comida: '#e4572e', 'café': '#a0522d', bar: '#8e44ad', templo: '#bc002d', museu: '#2e86de', natureza: '#27ae60', compras: '#f39c12', 'câmera': '#3c40c6', mirante: '#16a085', 'experiência': '#d35400', bairro: '#e84393', outro: '#7f8c8d' };
+const CATS = { comida: '#e4572e', 'café': '#a0522d', bar: '#8e44ad', templo: '#bc002d', museu: '#2e86de', natureza: '#27ae60', compras: '#f39c12', 'câmera': '#3c40c6', mirante: '#16a085', 'experiência': '#d35400', bairro: '#e84393', 'arte e tecnologia': '#00a8b5', outro: '#7f8c8d' };
 const catDe = c => Object.keys(CATS).find(k => norm(k) === norm(c)) || 'outro';
 
 const store = {
