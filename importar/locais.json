@@ -1462,5 +1462,126 @@
   "lat": 35.6624921,
   "lng": 139.7429109,
   "maps_url": "https://www.google.com/maps/search/?api=1&query=Pace%20Gallery&query_place_id=ChIJv50B80mLGGARHoNj_mo1d2o"
+ },
+ {
+  "nome": "Ginza Sony Park — árvore de luz de Opu Au e Sony 80",
+  "cidade": "Tóquio",
+  "bairro": "Ginza, cruzamento Sukiyabashi",
+  "categoria": "arte e tecnologia",
+  "nota": "銀座ソニーパーク · 中央区銀座5-3-1 · 11:00–19:00 · árvore de luz (1F) até 25/12/2026 · mostra Sony 80 (B1) de 28/11 a 20/12/2026",
+  "o_que": "Prédio-parque da Sony. No 1F, a artista Opu Au fez uma árvore de Natal de luz. No B1, a mostra 80. EPISODE 1 abre no sábado 28/11 com produtos, música e vídeo de 80 anos da Sony.",
+  "por_que": "A árvore é uma obra de luz no espaço público. A mostra Sony mostra engenharia eletrônica de consumo, montada pelos designers da empresa.",
+  "dicas": "Entrada grátis. As páginas oficiais não citam reserva. Na sexta só a árvore está aberta. Na mostra Sony, a última entrada é às 18:30. Estação Ginza.",
+  "fontes": [
+   "https://www.ginzasonypark.com/activity/029/",
+   "https://www.ginzasonypark.com/activity/030/",
+   "https://www.haveagood-holiday.com/en/articles/ginza-sony-park-christmas-tree-art-project-2026"
+  ],
+  "lat": 35.6720765,
+  "lng": 139.7631115,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Ginza%20Sony%20Park&query_place_id=ChIJu30bx6aLGGARJZ9QRTZd7YU"
+ },
+ {
+  "nome": "Hibiya Art Park 2026",
+  "cidade": "Tóquio",
+  "bairro": "Hibiya, Parque Hibiya",
+  "categoria": "arte e tecnologia",
+  "nota": "日比谷公園 · 千代田区日比谷公園1-6 · exposição até 29/11/2026 · horário diário N/D",
+  "o_que": "Exposição de arte ao ar livre no Parque Hibiya.",
+  "por_que": "Takashi Kuribayashi fez uma árvore gigante com espelho por dentro. O reflexo faz a árvore sumir na paisagem. É ilusão ótica em escala de cenografia.",
+  "dicas": "O pin marca o centro do parque, não a obra: procure a árvore de Kuribayashi no parque. Em 28/11 tem performance participativa de Kusa Hanasaki, com horário N/D. Preço e regra de entrada: N/D. Estação Hibiya.",
+  "fontes": [
+   "https://bijutsutecho.com/exhibitions/19078"
+  ],
+  "lat": 35.6736115,
+  "lng": 139.7558769,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Hibiya%20Park&query_place_id=ChIJx6xXOPKLGGARtPr6qZZ2nHA"
+ },
+ {
+  "nome": "Alloscape — Daito Manabe e Kyle McDonald",
+  "cidade": "Tóquio",
+  "bairro": "Odaiba, praia do Odaiba Seaside Park",
+  "categoria": "arte e tecnologia",
+  "nota": "おだいばビーチ(お台場海浜公園) · 港区台場1-4 · obra até 31/12/2026 · horário N/D",
+  "o_que": "Instalação de Daito Manabe e Kyle McDonald, com produção da Rhizomatiks, no festival ARTE TOKYO.",
+  "por_que": "A obra capta onda, vento, nuvem, luz e o movimento das pessoas e cria outra paisagem com esses dados. É arte com dado real de sensor.",
+  "dicas": "Preço e regra de entrada: N/D. Na mesma praia ficam a rede gigante de Yuko Nagayama e a instalação sonora de Kenta Ishige (TOKYO ATLAS). Estação Odaiba-kaihinkoen (Yurikamome).",
+  "fontes": [
+   "https://bijutsutecho.com/magazine/news/headline/33312",
+   "https://artetokyo.jp/"
+  ],
+  "lat": 35.631756,
+  "lng": 139.7774175,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Odaiba%20Beach&query_place_id=ChIJS6iFL_SJGGARZbSBoecKhj4"
+ },
+ {
+  "nome": "TOKYO ATLAS — Odaiba e Aomi",
+  "cidade": "Tóquio",
+  "bairro": "Odaiba, Parque Daiba",
+  "categoria": "arte e tecnologia",
+  "nota": "国際美術展 TOKYO ATLAS · 台場公園 · 港区台場1-10-1 · 10:00–17:00, última entrada 16:30 · fecha segunda · até 20/12/2026",
+  "o_que": "Exposição internacional de arte espalhada por Odaiba, Aomi e Tennozu.",
+  "por_que": "Na praia de Odaiba, Kenta Ishige fez uma instalação sonora: você anda na areia e ouve vozes. No Parque Daiba ficam as 1.500 esferas espelhadas de Narcissus Garden, de Yayoi Kusama.",
+  "dicas": "Entrada grátis, com alguns programas pagos. O estacionamento subterrâneo de Aomi exige reserva de horário. O pin marca o Parque Daiba. Estação Odaiba-kaihinkoen.",
+  "fontes": [
+   "https://bijutsutecho.com/magazine/news/report/33183",
+   "https://tokyoatlas.jp/",
+   "https://artscape.jp/exhibitions/80325/"
+  ],
+  "lat": 35.6335545,
+  "lng": 139.7720782,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Daiba%20Park&query_place_id=ChIJ9aeqHiCKGGARFh-fljrxUT0"
+ },
+ {
+  "nome": "WHAT MUSEUM — Zahyō (TOKYO ATLAS)",
+  "cidade": "Tóquio",
+  "bairro": "Tennozu, Terrada Warehouse G",
+  "categoria": "arte e tecnologia",
+  "nota": "WHAT MUSEUM · 品川区東品川2-6-10 寺田倉庫G号 · 10:00–17:00 durante o TOKYO ATLAS · fecha segunda · até 20/12/2026",
+  "o_que": "Mostra Zahyō (Coordenadas), paralela ao TOKYO ATLAS, com jovens artistas e curadores apoiados pela TOKAS e pelo Governo de Tóquio.",
+  "por_que": "Tem produção aberta e performance na entrada. É onde aparece a cena emergente de Tóquio.",
+  "dicas": "Entrada grátis, com alguns programas pagos. As talks são em japonês. O Google Maps mostra 11:00–18:00, mas o artscape informa 10:00–17:00 durante o TOKYO ATLAS. A Isle Shinagawa, outra sede do TOKYO ATLAS, fica perto. Estação Tennozu Isle.",
+  "fontes": [
+   "https://bijutsutecho.com/magazine/news/report/33183?page=3",
+   "https://artscape.jp/exhibitions/80325/",
+   "https://tokyoatlas.jp/"
+  ],
+  "lat": 35.6207365,
+  "lng": 139.7486433,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=WHAT%20MUSEUM&query_place_id=ChIJp39ByceLGGARrE8X0wVJIVk"
+ },
+ {
+  "nome": "TOKAS Hongo — OPEN SITE 11",
+  "cidade": "Tóquio",
+  "bairro": "Hongo",
+  "categoria": "arte e tecnologia",
+  "data": "2026-11-28",
+  "nota": "トーキョーアーツアンドスペース本郷 · 文京区本郷2-4-16 · exposições 11:00–19:00 · fecha segunda · performance no sábado 28/11 às 14:00 e às 17:00",
+  "o_que": "Centro público de arte de Tóquio. Expõe Zihan Liu (When Error Appears) e Fransisca Angela. No sábado tem a performance Marginal New Town, de Koh Leon Yonekawa.",
+  "por_que": "As exposições são grátis. A performance tem legenda em inglês. O evento é pequeno, então a chance de conhecer artista é alta.",
+  "dicas": "A performance custa 2.500 ienes, com ingresso online. A reserva fecha às 17:00 do dia anterior: confirme no site se ainda há vaga. Escolha a sessão das 17:00, porque a talk depois da sessão das 14:00 é só em japonês. As exposições também abrem na sexta. Estação Hongo-sanchome.",
+  "fontes": [
+   "https://tokyoartsandspace.jp/en/archive/exhibition/2026/20261127-7619.html"
+  ],
+  "lat": 35.7029503,
+  "lng": 139.7592638,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Arts%20and%20Space%20Hongo&query_place_id=ChIJEYFuvD2MGGARJ5YqbNhgqfU"
+ },
+ {
+  "nome": "ADRIFT — RESONANZ DAYLIGHT vol.1",
+  "cidade": "Tóquio",
+  "bairro": "Shimokitazawa",
+  "categoria": "arte e tecnologia",
+  "data": "2026-11-28",
+  "nota": "ADRIFT · 世田谷区北沢3-9-23 · sábado 28/11 · portas 13:10, início 13:40, fim 20:00",
+  "o_que": "Festa de dia com DJs numa casa de shows de Shimokitazawa.",
+  "por_que": "A casa tem sistema de som d&b audiotechnik e teto alto. É referência de som para instalação.",
+  "dicas": "Canal de venda e preço do ingresso: N/D. Cada pessoa paga no mínimo 1 drink de 600 ienes. Segundo avaliação no Google, há armário fora da casa por 400 ienes. A estação Higashi-kitazawa fica a poucos minutos a pé. A estação Shimokitazawa fica a menos de 10 minutos.",
+  "fontes": [
+   "https://metropolisjapan.com/events/resonanz-daylight-vol-1/"
+  ],
+  "lat": 35.6639386,
+  "lng": 139.6707674,
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=ADRIFT&query_place_id=ChIJ6RSAn5HzGGARdzSditSDvrg"
  }
 ]
